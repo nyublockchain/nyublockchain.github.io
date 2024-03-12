@@ -1,64 +1,65 @@
 <div class="team-section">
-    {{ range $.Site.Data.affiliates }}
-    <div class="team-member">
-        <img src="images/affiliates/{{ .image }}" alt="{{ .name }}">
-        <h4>{{ .name }}</h4>
-        <div class="social-links">
-            {{ if .social.website }}<a href="{{ .social.website }}">Website</a>{{ end }}
-            {{ if .social.website }}<a href="{{ .social.website }}">Personal</a>{{ end }}
-        </div>
+  {{ range $.Site.Data.affiliates }}
+  <div class="team-member">
+    <img src="images/affiliates/{{ .image }}" alt="{{ .name }}" />
+    <h4>{{ .name }}</h4>
+    <div class="social-links">
+      {{ if .social.website }}<a href="{{ .social.website }}">Website</a>{{ end
+      }}
     </div>
-    {{ end }}
+  </div>
+  {{ end }}
 </div>
 
 <style>
-    .team-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .team-member {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+    flex: 0 1 calc(33.333% - 20px);
+  }
+
+  @media (max-width: 768px) {
+    /* Common breakpoint for tablets and mobile devices */
+  }
+
+  .team-member img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .social-links {
+    margin-top: -5px;
+  }
+
+  .social-links a {
+    margin: 0 5px;
+    font-size: 18px;
+  }
+
+  .social-links a:hover {
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
     .team-member {
-        width: 30%;
-        text-align: center;
-        margin-bottom: 50px;
-        flex: 0 1 calc(33.333% - 20px);
+      flex: 0 1 100%; /* Each team member takes full width */
     }
 
-    @media (max-width: 768px) { /* Common breakpoint for tablets and mobile devices */
-      }
-    
     .team-member img {
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        object-fit: cover;
+      margin: auto; /* Center captions on small screens */
     }
 
-    .social-links {
-        margin-top: -5px;
+    .team-member .social-links {
+      text-align: center; /* Center captions on small screens */
     }
-    
-    .social-links a {
-        margin: 0 5px;
-        font-size: 18px;
-    }
-
-    .social-links a:hover {
-        text-decoration: none;
-    }
-
-    @media (max-width: 768px) {
-        .team-member {
-          flex: 0 1 100%; /* Each team member takes full width */
-        }
-
-        .team-member img {
-            margin: auto; /* Center captions on small screens */
-        }
-
-        .team-member .social-links {
-          text-align: center; /* Center captions on small screens */
-        }
-      }
+  }
 </style>

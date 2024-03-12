@@ -16,6 +16,9 @@ The affiliates section can easily be changed by altering one data file and repla
    - The image name here directly corresponds to the name of the image that is placed into the [images](/static/images/affiliates/) folder.
 3. Images are stored in the **static** folder. For the affiliates section, they are in [static/images/affiliates](/static/images/affiliates/).
    - You do not necessarily have to keep the FirstLast.jpg naming convention, just make sure that in the [affiliates.yml](/data/affiliates.yml) file, the "image" field for each user corresponds to the name of the file placed here.
+4. The website link is saved under the "website" attribute.
+   - The bio attribute currently does nothing.
+   - A website link will only appear if the website field is not empty.
 
 **Extra Note**:
 
