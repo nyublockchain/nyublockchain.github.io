@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Blockchain Lab # Website name
-baseURL: "nyublockchain.github.io" # Website URL
+baseURL: "https://nyublockchain.github.io" # Website URL
 
 ############################
 ## LANGUAGE
