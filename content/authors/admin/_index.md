@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Research and Discussion Group
+role: Research Group
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -32,40 +32,20 @@ social:
   - icon: envelope
     icon_pack: fas
     link: "/#contact"
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
 <br>
-The Blockchain Lab at NYU Stern is a research lab focusing on the latest developments in the blockchain and Web 3.0 space. We are a passionate group of researchers committed to pushing our frontier of knowledge by contributing cutting-edge insights and publications.
+The Blockchain Lab at NYU Stern is a research lab committed to pushing our frontier of knowledge in the blockchain and Web 3.0 space.
 
-Our dedication is to study the economic forces shaping blockchain technology to usher our digital platform economy into a more transparent, inclusive, and democratic era of the internet, often referred to as Web 3.0. Through our research, we aim to provide insights into the transformative potential of blockchain technology for users, companies, and society as a whole, and to better explain what the technology can and cannot help us achieve.
+We research technology developments and economic forces that shape blockchain platforms to understand how blockchain technologies and Web 3.0 can bring transparency, inclusivity and democracy to the internet.
 
-We cover a broad range of research topics, including but not limited to, the tensions between decentralization and centralization, layer 2 scaling solutions, and decentralized autonomous organizations. Our theoretical perspectives cover, among others, platform competition, platform governance, platform policy, game theory, and mechanism design.
+We study a broad range of research topics such as the tensions between decentralization and centralization, the tradeoffs in Layer 2 scaling solutions, and decentralized autonomous organizations. Our theoretical perspectives include platform competition, platform governance, platform policy, game theory, and mechanism design.
 
-Researchers from our lab regularly attend academic and practitioners’ conferences. If you are interested in chatting, please feel free to reach out.
+We regularly attend academic and practitioners’ conferences. If you are interested in chatting, please feel free to reach out.
+
 {style="text-align: justify;"}
 
 <div class="container">
