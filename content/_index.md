@@ -118,8 +118,8 @@ sections:
       title: Contact
       subtitle: Reach out to us!
       text: |-
-        Reach out to us via email, and we will try our best to respond as soon as possible. You can email us at blockchain@stern.nyu.edu.
-      email: blockchain@stern.nyu.edu
+        Reach out to us via email, and we will try our best to respond as soon as possible. You can email us at nyublockchain@gmail.com.
+      email: nyublockchain@gmail.com
       office_hours:
         - "Fridays 11:45 AM to 1:30 PM EST"
       # Automatically link email and phone or display as text?
