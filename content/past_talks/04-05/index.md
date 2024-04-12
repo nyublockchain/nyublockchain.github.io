@@ -9,7 +9,7 @@ date: "2024-04-05T00:00:00Z"
 all_day: true
 
 # do NOT alter this.
-publishDate: "2024-04-05T00:00:00Z"
+publishDate: "2024-01-01T00:00:00Z"
 
 # aray of names for author
 authors: ["Theo Diamandis", "Alex Evans", "Tarun Chitra", "Guillermo Angeris"]
