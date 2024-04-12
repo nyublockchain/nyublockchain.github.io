@@ -1,5 +1,5 @@
 ---
-title: Dynamic Pricing for Non-fungible Resources: Designing Multidimensional Blockchain Fee Markets
+title: Dynamic Pricing for Non-fungible Resources - Designing Multidimensional Blockchain Fee Markets
 
 summary: "The research proposes a method for designing fee markets in public blockchains that efficiently price multiple non-fungible resources. It utilizes a dynamic pricing mechanism based on a network designer-specified loss function, aligning incentives between the network, users, and miners to enhance overall performance."
 abstract: ""
