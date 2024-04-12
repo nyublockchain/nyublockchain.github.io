@@ -12,7 +12,7 @@ all_day: true
 publishDate: "2024-01-01T00:00:00Z"
 
 # aray of names for author
-authors: ["Baptise Perez"]
+authors: ["Baptiste Perez"]
 tags: []
 
 # Is this a featured talk? (true/false)
