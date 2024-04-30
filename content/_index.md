@@ -84,20 +84,6 @@ sections:
   #    view: compact
   #    columns: "2"
 
-  # Publications
-  - block: collection
-    id: publications
-    content:
-      title: Publications
-      filters:
-        folders:
-          - publication
-        featured_only: false
-        count: 0
-    design:
-      columns: "2"
-      view: card
-
   # Working Papers
   - block: collection
     id: papers
@@ -106,6 +92,20 @@ sections:
       filters:
         folders:
           - post
+        featured_only: false
+        count: 0
+    design:
+      columns: "2"
+      view: card
+
+  # Publications
+  - block: collection
+    id: publications
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
         featured_only: false
         count: 0
     design:
