@@ -13,11 +13,11 @@ main:
   - name: Talks
     url: "#talks"
     weight: 3
-  - name: Publications
-    url: "#publications"
-    weight: 4
   - name: Working Papers
     url: "#papers"
+    weight: 4
+  - name: Publications
+    url: "#publications"
     weight: 5
   - name: Contact
     url: "#contact"
