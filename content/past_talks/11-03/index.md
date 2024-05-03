@@ -13,7 +13,7 @@ all_day: true
 publishDate: "2023-01-01T00:00:00Z"
 
 # aray of names for author
-authors: ["Mariia Petryk"]
+authors: ["Mahendrarajah Nimalendran", "Praveen Pathak", "Mariia Petryk", "Liangfei Qiu"]
 tags: []
 
 # Is this a featured talk? (true/false)
