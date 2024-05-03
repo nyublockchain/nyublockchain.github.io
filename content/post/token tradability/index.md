@@ -13,7 +13,7 @@ summary: In the context of digital platforms, the study examines the impact of a
 projects: []
 
 # Date published
-date: "2024-03-20T00:00:00Z"
+date: "2024-03-30T00:00:00Z"
 
 # Date updated
 lastmod: "2023-05-09T00:00:00Z"
