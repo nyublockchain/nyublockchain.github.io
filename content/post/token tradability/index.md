@@ -1,5 +1,5 @@
 ---
-title: Token Tradability as a Platform Governance Mechanism: Evidence from a Policy Change
+title: Token Tradability as a Platform Governance Mechanism - Evidence from a Policy Change
 
 authors:
   - Yuxin Geng
