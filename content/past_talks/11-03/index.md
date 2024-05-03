@@ -1,7 +1,7 @@
 ---
 title: Informational Efficiency of Cryptocurrency Markets
 
-summary: This paper investiagtes the impact of regulatory compliance on the liquidity of cryptocurrencies. This paper is presented by Mariia Petryk (GMU) 
+summary: This paper investiagtes the impact of regulatory compliance on the liquidity of cryptocurrencies. This paper is presented by Prof. Mariia Petryk (GMU) 
 
 abstract: This study utilizes variance ratios (VRs) to assess the roles of regulation and liquidity on cryptocurrency market efficiency using crypto assets subject to varying degrees of regulation. Our findings reveal that cryptocurrencies supervised by FinCEN-licensed exchanges (IEO-L) exhibit market efficiency similar to SEC-regulated traditional stock offerings (IPOs). Conversely, non- compliant crypto assets display higher market inefficiency. We also establish a connection between regulatory compliance and issuing entity reputation mechanisms. Our results indicate that compliance with existing regulatory norms enhances efficiency and reduces investor risks in crypto-assets. Furthermore, assets voluntarily adhering to regulatory norms can attain efficiency akin to government-regulated assets.
 
