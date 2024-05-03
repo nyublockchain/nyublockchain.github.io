@@ -4,17 +4,24 @@
     personal: "https://works.bepress.com/halaburda/"
     stern: "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
 
-- name: Yannis Bakos
-  image: YannisBakos.jpg
+- name: Daniel Obermeier
+  image: DanielObermeier.jpg
   social:
-    personal: "https://pages.stern.nyu.edu/~bakos/"
-    stern: "https://www.stern.nyu.edu/faculty/bio/yannis-bakos"
+    stern: "https://danielobermeier.github.io/"
+    website: ""
 
 - name: Raveesh Mayya
   image: RaveeshMayya.jpg
   social:
     personal: "http://www.raveeshmayya.com/"
     stern: "https://www.stern.nyu.edu/faculty/bio/raveesh-mayya"
+
+- name: Yannis Bakos
+  image: YannisBakos.jpg
+  social:
+    personal: "https://pages.stern.nyu.edu/~bakos/"
+    stern: "https://www.stern.nyu.edu/faculty/bio/yannis-bakos"
+
 
 - name: Abdoulaye Ndiaye
   image: AbdoulayeNdiaye.jpg
@@ -27,12 +34,6 @@
   social:
     personal: "https://sites.google.com/site/guillaumehaeringer/"
     baruch: "https://zicklin.baruch.cuny.edu/faculty-profile/guillaume-haeringer/"
-
-- name: Daniel Obermeier
-  image: DanielObermeier.jpg
-  social:
-    stern: "https://danielobermeier.github.io/"
-    website: ""
 
 - name: Gustavo Grivol
   image: GustavoGrivol.jpg
