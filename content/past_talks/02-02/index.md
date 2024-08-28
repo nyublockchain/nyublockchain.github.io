@@ -1,8 +1,8 @@
 ---
 title: Security of L2 platforms
 
-summary: In this session, we discussed how and to what extent L2 blockchains inherit security from L1 blockchains and what new security risks arise with L2 technology.
-abstract: In this session, we discussed how and to what extent L2 blockchains inherit security from L1 blockchains and what new security risks arise with L2 technology.
+summary: In this session, we discussed how and to what extent L2 blockchains inherit security guarantees from L1 blockchains and what new security risks arise with L2 technology.
+abstract: In this session, we discussed how and to what extent L2 blockchains inherit security guarantees from L1 blockchains and what new security risks arise with L2 technology.
 
 # Talk date
 date: "2024-02-02T00:00:00Z"
