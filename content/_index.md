@@ -56,8 +56,7 @@ sections:
       columns: "2"
 
   # Talks section
-
-   - block: collection
+  - block: collection
     id: future_talks
     content:
       title: Upcoming Talks
