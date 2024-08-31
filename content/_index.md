@@ -26,6 +26,35 @@ sections:
       count: 1
     design:
       columns: "2"
+    
+  # Talks section
+  - block: collection
+    id: future_talks
+    content:
+      title: Upcoming Talks
+      subtitle: ""
+      text: ""
+  # Choose how many pages you would like to display (0 = all pages)
+      count: 0
+  # Filter on criteria
+      filters:
+        folders:
+          - future_talks
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+  # Choose how many pages you would like to offset by
+      offset: 0
+  # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+  # Choose a layout view
+      view: compact
+      columns: "2"
+
 
   # Talks section
   - block: collection
@@ -55,33 +84,6 @@ sections:
       view: compact
       columns: "2"
 
-  # Talks section
-  - block: collection
-    id: future_talks
-    content:
-      title: Upcoming Talks
-      subtitle: ""
-      text: ""
-  # Choose how many pages you would like to display (0 = all pages)
-      count: 0
-  # Filter on criteria
-      filters:
-        folders:
-          - future_talks
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-  # Choose how many pages you would like to offset by
-      offset: 0
-  # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-  # Choose a layout view
-      view: compact
-      columns: "2"
 
   # Working Papers
   - block: collection
