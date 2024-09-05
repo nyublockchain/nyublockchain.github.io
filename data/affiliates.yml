@@ -2,38 +2,38 @@
   image: HannaHalaburda.jpg
   social:
     personal: "https://works.bepress.com/halaburda/"
-    'NYU Stern': "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
+    NYU-Stern: "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
 
 - name: Daniel Obermeier
   image: DanielObermeier.jpg
   social:
-    NYU Stern: "https://danielobermeier.github.io/"
+    NYU-Stern: "https://danielobermeier.github.io/"
     website: ""
 
 - name: Raveesh Mayya
   image: RaveeshMayya.jpg
   social:
     personal: "http://www.raveeshmayya.com/"
-    NYU Stern: "https://www.stern.nyu.edu/faculty/bio/raveesh-mayya"
+    NYU-Stern: "https://www.stern.nyu.edu/faculty/bio/raveesh-mayya"
 
 - name: Yannis Bakos
   image: YannisBakos.jpg
   social:
     personal: "https://pages.stern.nyu.edu/~bakos/"
-    NYU Stern: "https://www.stern.nyu.edu/faculty/bio/yannis-bakos"
+    NYU-Stern: "https://www.stern.nyu.edu/faculty/bio/yannis-bakos"
 
 
 - name: Abdoulaye Ndiaye
   image: AbdoulayeNdiaye.jpg
   social:
     personal: "https://sites.google.com/view/abdoulaye-ndiaye"
-    NYU Stern: "https://www.stern.nyu.edu/faculty/bio/abdoulaye-ndiaye"
+    NYU-Stern: "https://www.stern.nyu.edu/faculty/bio/abdoulaye-ndiaye"
 
 - name: Guillaume Haeringer
   image: GuillaumeHaeringer.jpg
   social:
     personal: "https://sites.google.com/site/guillaumehaeringer/"
-    baruch: "https://zicklin.baruch.cuny.edu/faculty-profile/guillaume-haeringer/"
+    Baruch: "https://zicklin.baruch.cuny.edu/faculty-profile/guillaume-haeringer/"
 
 - name: Gustavo Grivol
   image: GustavoGrivol.jpg
