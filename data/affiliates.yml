@@ -2,7 +2,7 @@
   image: HannaHalaburda.jpg
   social:
     personal: "https://works.bepress.com/halaburda/"
-    NYU Stern: "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
+    'NYU Stern': "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
 
 - name: Daniel Obermeier
   image: DanielObermeier.jpg
