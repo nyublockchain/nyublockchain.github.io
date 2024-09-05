@@ -11,7 +11,7 @@ main:
     url: "#affiliates"
     weight: 2
   - name: Talks
-    url: "#talks"
+    url: "#future_talks"
     weight: 3
   - name: Working Papers
     url: "#papers"
