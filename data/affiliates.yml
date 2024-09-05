@@ -2,7 +2,7 @@
   image: HannaHalaburda.jpg
   social:
     personal: "https://works.bepress.com/halaburda/"
-    NYU-Stern: "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
+    "NYU Stern": "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
 
 - name: Daniel Obermeier
   image: DanielObermeier.jpg
@@ -28,6 +28,19 @@
   social:
     personal: "https://sites.google.com/view/abdoulaye-ndiaye"
     "NYU Stern": "https://www.stern.nyu.edu/faculty/bio/abdoulaye-ndiaye"
+
+- name: Benedikt Bünz
+  image: BenediktBunz.jpg
+  social:
+    personal: "https://cs.nyu.edu/~bb/"
+    "NYU Courant": "https://cs.nyu.edu/~bb/"
+
+- name: Joseph Bonneau
+  image: JosephBonneau.jpg
+  social:
+    personal: "https://jbonneau.com/"
+    "NYU Courant": "https://cims.nyu.edu/people/profiles/BONNEAU_Joseph.html"
+
 
 - name: Guillaume Haeringer
   image: GuillaumeHaeringer.jpg
