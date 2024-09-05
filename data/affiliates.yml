@@ -2,51 +2,50 @@
   image: HannaHalaburda.jpg
   social:
     personal: "https://works.bepress.com/halaburda/"
-    "NYU Stern": "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
+    stern": "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
 
 - name: Daniel Obermeier
   image: DanielObermeier.jpg
   social:
-    "NYU Stern": "https://danielobermeier.github.io/"
-    website: ""
+    personal: "https://danielobermeier.github.io/"
 
 - name: Raveesh Mayya
   image: RaveeshMayya.jpg
   social:
     personal: "http://www.raveeshmayya.com/"
-    "NYU Stern": "https://www.stern.nyu.edu/faculty/bio/raveesh-mayya"
+    stern: "https://www.stern.nyu.edu/faculty/bio/raveesh-mayya"
 
 - name: Yannis Bakos
   image: YannisBakos.jpg
   social:
     personal: "https://pages.stern.nyu.edu/~bakos/"
-    "NYU Stern": "https://www.stern.nyu.edu/faculty/bio/yannis-bakos"
+    stern: "https://www.stern.nyu.edu/faculty/bio/yannis-bakos"
 
 
 - name: Abdoulaye Ndiaye
   image: AbdoulayeNdiaye.jpg
   social:
     personal: "https://sites.google.com/view/abdoulaye-ndiaye"
-    "NYU Stern": "https://www.stern.nyu.edu/faculty/bio/abdoulaye-ndiaye"
+    stern: "https://www.stern.nyu.edu/faculty/bio/abdoulaye-ndiaye"
 
 - name: Benedikt Bünz
   image: BenediktBunz.jpg
   social:
     personal: "https://cs.nyu.edu/~bb/"
-    "NYU Courant": "https://cs.nyu.edu/~bb/"
+    courant: "https://cs.nyu.edu/~bb/"
 
 - name: Joseph Bonneau
   image: JosephBonneau.jpg
   social:
     personal: "https://jbonneau.com/"
-    "NYU Courant": "https://cims.nyu.edu/people/profiles/BONNEAU_Joseph.html"
+    courant: "https://cims.nyu.edu/people/profiles/BONNEAU_Joseph.html"
 
 
 - name: Guillaume Haeringer
   image: GuillaumeHaeringer.jpg
   social:
     personal: "https://sites.google.com/site/guillaumehaeringer/"
-    Baruch: "https://zicklin.baruch.cuny.edu/faculty-profile/guillaume-haeringer/"
+    baruch: "https://zicklin.baruch.cuny.edu/faculty-profile/guillaume-haeringer/"
 
 - name: Gustavo Grivol
   image: GustavoGrivol.jpg
