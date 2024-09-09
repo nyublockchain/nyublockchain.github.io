@@ -45,7 +45,8 @@
 - name: Daniel Obermeier
   image: DanielObermeier.jpg
   social:
-    nova: "https://danielobermeier.github.io/"
+    personal: "https://danielobermeier.github.io/"
+    nova: "https://www.novasbe.unl.pt/en/"
 
 
 - name: Gustavo Grivol
