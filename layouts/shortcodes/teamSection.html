@@ -2,7 +2,7 @@
   {{ range $.Site.Data.affiliates }}
   <div class="team-member">
     <img src="images/affiliates/{{ .image }}" alt="{{ .name }}" />
-    <a href="{{ .social.personal}}"><h4  style="color:blue;">{{ .name }}</h4></a>
+    <h4><a href="{{ .social.personal}}">{{ .name }}</a></h4>
     <div class="social-links">
       {{ if .social.website }}<a href="{{ .social.website }}">Website</a>{{ end
       }}
