@@ -3,7 +3,7 @@ title: How Blockchain Tokens are Changing Platform Economics
 
 authors:
   - David Yermack
-  - Hanna Halaburda
+
 
 # Summary for listings and search engines
 summary: The development of Blockchains technologies, including smart contracts and cryptographic tokens, have a potential to change the competition between platforms. In this presentation, based on a couple of projects, I discuss how utility tokens can help new platforms enter the market, and how governance tokens can help platforms to increase social welfare. I also discuss limitations of these technologies in improving platform strategy and competition.
