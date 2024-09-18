@@ -2,7 +2,7 @@
 title: How Blockchain Tokens are Changing Platform Economics
 
 authors:
-  - David Yermack
+  - Hanna Halaburda
 
 
 # Summary for listings and search engines
