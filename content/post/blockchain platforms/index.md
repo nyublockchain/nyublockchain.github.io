@@ -31,8 +31,13 @@ external_link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4221512"
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: ""
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
   focal_point: ""
   placement: 2
   preview_only: false
+
+url_code: ""
+url_pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4221512"
+url_slides: ""
+url_video: ""
 ---
