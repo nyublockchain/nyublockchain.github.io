@@ -1,9 +1,9 @@
 ---
 title: Decentralized Identity and Decentralized Social Networks
 
-summary: In this session it presented will be discussed recents advances in open-source protocols for decentralized identity and social and how what can be their roles after cases of govenments banning some social platforms.
+summary: This session will discuss recent advances in open-source protocols for decentralized identity and social networks, and explore their potential roles in response to cases where governments have banned certain social platforms.
 
-abstract: In this session it presented will be discussed recents advances in open-source protocols for decentralized identity and social and how what can be their roles after cases of govenments banning some social platforms.
+abstract: This session will discuss recent advances in open-source protocols for decentralized identity and social networks, and explore their potential roles in response to cases where governments have banned certain social platforms.
 
 # Talk date
 date: "2024-09-20T12:30:00Z"
