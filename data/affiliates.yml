@@ -4,6 +4,14 @@
     personal: "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
     stern: "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
 
+
+- name: Daniel Obermeier
+  image: DanielObermeier.jpg
+  social:
+    personal: "https://danielobermeier.github.io/"
+    nova: "https://www.novasbe.unl.pt/en/"
+
+
 - name: Raveesh Mayya
   image: RaveeshMayya.jpg
   social:
@@ -41,12 +49,6 @@
   social:
     personal: "https://sites.google.com/site/guillaumehaeringer/"
     baruch: "https://zicklin.baruch.cuny.edu/faculty-profile/guillaume-haeringer/"
-
-- name: Daniel Obermeier
-  image: DanielObermeier.jpg
-  social:
-    personal: "https://danielobermeier.github.io/"
-    nova: "https://www.novasbe.unl.pt/en/"
 
 
 - name: Gustavo Grivol
