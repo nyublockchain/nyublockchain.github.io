@@ -1,18 +1,18 @@
 ---
-title: Liquid Crypto Markets and Venture Investments
+title: Permissioned vs Permissionless Blockchains: Tradeoffs in Trust and Performance
 
 summary: 
 abstract:
 
 # Talk date
-date: "2024-09-27T12:30:00Z"
+date: "2024-10-03T12:30:00Z"
 all_day: False
 
 # do NOT alter this.
 publishDate: "2024-01-01T00:00:00Z"
 
 # aray of names for author
-authors: [Ayesha Kiani]
+authors: [Hanna Halaburda, Yannis Bakos]
 tags: []
 
 # Is this a featured talk? (true/false)
