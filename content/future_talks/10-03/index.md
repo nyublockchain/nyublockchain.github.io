@@ -1,5 +1,5 @@
 ---
-title: Permissioned vs Permissionless Blockchains: Tradeoffs in Trust and Performance
+title: Permissioned vs Permissionless Blockchains\: Tradeoffs in Trust and Performance
 
 summary: 
 abstract:
