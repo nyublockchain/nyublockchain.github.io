@@ -25,6 +25,6 @@ image:
 links:
 url_code: ""
 url_pdf: "https://drive.google.com/file/d/153GPtADZDbkxsSEe8Um4c5pmDtgnobl8/view?usp=sharing"
-url_slides: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2994052"
+url_pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2994052"
 url_video: ""
 ---
