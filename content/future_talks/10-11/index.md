@@ -24,7 +24,7 @@ image:
 
 links:
 url_code: ""
-url_pdf: ["https://drive.google.com/file/d/153GPtADZDbkxsSEe8Um4c5pmDtgnobl8/view?usp=sharing","https://drive.google.com/file/d/17JQNFywiBj1NTnHZzhryKFpF-9Fohn7-/view?usp=sharing"]
+url_pdf: "https://drive.google.com/file/d/153GPtADZDbkxsSEe8Um4c5pmDtgnobl8/view?usp=sharing","https://drive.google.com/file/d/17JQNFywiBj1NTnHZzhryKFpF-9Fohn7-/view?usp=sharing"
 url_slide: ""
 url_video: ""
 ---
