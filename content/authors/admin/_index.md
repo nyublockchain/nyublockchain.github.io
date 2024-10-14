@@ -46,7 +46,7 @@ We study a broad range of research topics such as the tensions between decentral
 
 We regularly attend academic and practitioners’ conferences. If you are interested in chatting, please feel free to reach out.
 
-We closely collaborate with related research groups across NYU, such as the <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>.
+We closely collaborate with related research groups across NYU, such as the <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>, and the Student Club ("Blockchain Lab") organized by </a href="https://x.com/ayeshkiani"> Ayesha Kiani </a>. 
 
 {style="text-align: justify;"}
 
