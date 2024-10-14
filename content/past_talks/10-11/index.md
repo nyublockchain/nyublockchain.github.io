@@ -1,7 +1,7 @@
 ---
 title: "Recent Developments and Research on CBDCs"
 
-summary: In this week session we discussed the development of Central Banks Digital Currencies, their usage, implementation and related topics. Two papers were used for our discussion <\a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2994052">(Fung and Halaburda 2016)<\a> and <a href="https://www.nature.com/articles/s41562-022-01404-9">(Baronchelli, Halaburda & Teytelboym, 2022)<\a> (also attached below).
+summary: In this week session we discussed the development of Central Banks Digital Currencies, their usage, implementation and related topics. Two papers were used for our discussion <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2994052">(Fung and Halaburda 2016)<\a> and <a href="https://www.nature.com/articles/s41562-022-01404-9">(Baronchelli, Halaburda & Teytelboym, 2022)<\a> (also attached below).
 abstract: In this week session we will discuss the development of Central Banks Digital Currencies, their usage, implementation and related topics. Two papers were the basis for our discussion <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2994052">(Fung and Halaburda 2016)<\a> and <a href="https://www.nature.com/articles/s41562-022-01404-9">(Baronchelli, Halaburda & Teytelboym, 2022)<\a> (also attached below).
 
 # Talk date
