@@ -12,7 +12,7 @@ all_day: true
 publishDate: "2024-04-04T00:00:00Z"
 
 # aray of names for author
-authors: ["Jacob Leshno", "Rafael Pass", "Elaine Shi‡"]
+authors: ["Jacob Leshno", "Rafael Pass", "Elaine Shi"]
 tags: []
 
 # Is this a featured talk? (true/false)
