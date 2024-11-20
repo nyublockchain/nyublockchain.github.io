@@ -1,8 +1,8 @@
 ---
 title: On the Viability of Open-Source Financial Rails: Economic Security of Permissionless Consensus
 
-summary: In this meeting, Prof. Jacob Leshno will present his recent paper with Prof.Rafael Pass and Prof. Elaine Shi, "On the Viability of Open-Source Financial Rails: Economic Security of Permissionless Consensus".
-abstract:  In this meeting, Prof. Jacob Leshno will present his recent paper with Prof.Rafael Pass and Prof. Elaine Shi, "On the Viability of Open-Source Financial Rails: Economic Security of Permissionless Consensus".
+summary: In this meeting, Prof. Jacob Leshno will present his recent paper with Prof.Rafael Pass and Prof. Elaine Shi, "On the Viability of Open-Source Financial Rails\: Economic Security of Permissionless Consensus".
+abstract:  In this meeting, Prof. Jacob Leshno will present his recent paper with Prof.Rafael Pass and Prof. Elaine Shi, "On the Viability of Open-Source Financial Rails\: Economic Security of Permissionless Consensus".
 
 # Talk date
 date: "2024-11-22T00:00:00Z"
