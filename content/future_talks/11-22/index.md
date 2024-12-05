@@ -23,7 +23,7 @@ image:
   focal_point: Right
 
 url_code: ""
-url_pdf: "https://drive.google.com/file/d/17PFUVgzGeoOPMrwjMh4cUANFrT4bGVr5/view?usp=sharing"
+url_pdf: "https://abdouecon.github.io/research/papers/Relative_Pricing.pdf"
 url_slides: ""
 url_video: ""
 ---
