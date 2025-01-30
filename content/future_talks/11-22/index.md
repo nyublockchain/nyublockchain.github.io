@@ -1,7 +1,7 @@
 ---
-title: Relative Pricing and Efficient Allocation in Blockchains
+title: Overview of Liquid Staking
 
-summary: In this meeting, Dheeraj Maske will present an overview of liquid staking implementations in Blockchains and how it has being adopted. 
+summary: "In this meeting, Dheeraj Maske will present an overview of liquid staking implementations in Blockchains and how it has being adopted."
 
 Talk date
 date: "2025-01-31T00:00:00Z"
