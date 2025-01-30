@@ -3,7 +3,7 @@ title: Overview of Liquid Staking
 
 summary: "In this meeting, Dheeraj Maske will present an overview of liquid staking implementations in Blockchains and how it has being adopted."
 
-Talk date
+#Talk date
 date: "2025-01-31T00:00:00Z"
 all_day: true
 
