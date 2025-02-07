@@ -10,18 +10,15 @@ main:
   - name: Affiliates
     url: "#affiliates"
     weight: 2
-  - name: Talks
-    url: "#future_talks"
-    weight: 3
   - name: Working Papers
     url: "#papers"
     weight: 4
   - name: Publications
     url: "#publications"
     weight: 5
-  - name: Contact
-    url: "#contact"
-    weight: 6
+#  - name: Contact
+#    url: "#contact"
+#    weight: 6
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
