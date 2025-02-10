@@ -113,18 +113,4 @@ sections:
       columns: "2"
       view: card
 
-#  - block: contact
-#    id: contact
-#    content:
-#      title: Contact
-#      subtitle: Reach out to us!
-#      text: |-
-#        Reach out to us via email, and we will try our best to respond as soon as possible. You can email us at blockchain@stern.nyu.edu.
-#      email:  blockchain@stern.nyu.edu.
-#      office_hours:
-#        - "Fridays 12:00 PM to 1:30 PM EST"
-#      # Automatically link email and phone or display as text?
-#      autolink: true
-#    design:
-#      columns: "2"
 ---
