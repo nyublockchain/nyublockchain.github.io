@@ -52,11 +52,9 @@
 
 - name: Ayesha Kiani
   image: ayesha.jpg
-  
   social:
-    website: "https://x.com/ayeshkiani?lang=en"
+    tandon: "https://x.com/ayeshkiani?lang=en"
     
-
 
 - name: Gustavo Grivol
   image: GustavoGrivol.jpg
