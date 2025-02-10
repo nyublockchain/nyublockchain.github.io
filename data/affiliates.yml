@@ -51,7 +51,8 @@
     baruch: "https://zicklin.baruch.cuny.edu/faculty-profile/guillaume-haeringer/"
 
 - name: Ayesha Kiani
-  image:
+  image: ayesha.jpg
+  
   social:
     website: "https://x.com/ayeshkiani?lang=en"
     
