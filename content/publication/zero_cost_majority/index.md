@@ -8,7 +8,6 @@ authors:
   - Joshua S. Gans
   - Hanna Halaburda
 
-date: "2024-23-01T00:00:00Z"
 doi: "https://doi.org/10.1287/mnsc.2023.02426"
 
 # Schedule page publish date (NOT publication's date).
