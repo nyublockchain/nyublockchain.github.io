@@ -10,7 +10,6 @@ authors:
   - Semi Min
 
 # Date
-date: "2023-29-06T00:00:00Z"
 doi: "https://doi.org/10.25300/MISQ/2023/17818"
 
 # Schedule page publish date (NOT publication's date).

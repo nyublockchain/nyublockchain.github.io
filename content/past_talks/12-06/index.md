@@ -1,7 +1,7 @@
 ---
 title: Relative Pricing and Efficient Allocation in Blockchains
 
-summary: In this meeting, Prof. Abdoulaye Ndiaye will present his recent paper "Relative Pricing and Efficient Allocation in Blockchains".
+summary: In this meeting, Prof. Abdoulaye Ndiaye presented his paper "Relative Pricing and Efficient Allocation in Blockchains".
 abstract:  In this meeting, Prof.Abdoulaye Ndiaye will present his recent paper with Prof.Rafael Pass and Prof. Elaine Shi, "Relative Pricing and Efficient Allocation in Blockchains".
 
 # Talk date

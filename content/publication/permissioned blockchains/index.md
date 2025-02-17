@@ -9,8 +9,8 @@ authors:
   - Hanna Halaburda
   - Christoph Mueller-Bloch
 
-date: "2021-25-01T00:00:00Z"
 doi: "https://doi.org/10.1145/3442371"
+
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-01-01T00:00:00Z"

@@ -8,7 +8,6 @@ authors:
   - Yannis Bakos
   - Hanna Halaburda
 
-date: "2022-24-08T00:00:00Z"
 doi: "https://doi.org/10.1287/isre.2022.1157"
 
 # Schedule page publish date (NOT publication's date).
