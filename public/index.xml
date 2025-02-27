@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/index.xml" rel="self" type="application/rss+xml" />
+    <description>NYU Blockchain Lab</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>NYU Blockchain Lab</title>
+      <link>https://blockchain.stern.nyu.edu/</link>
+    </image>
+    
+    <item>
+      <title>Example Event</title>
+      <link>https://blockchain.stern.nyu.edu/event/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/event/example/</guid>
+      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://docs.hugoblox.com/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://docs.hugoblox.com/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primer on Restaking</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/01-24/</link>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/01-24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relative Pricing and Efficient Allocation in Blockchains</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/12-06/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/12-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Viability of Open-Source Financial Rails, Economic Security of Permissionless Consensus</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/11-22/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/11-22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-block MEV</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/11-15/</link>
+      <pubDate>Fri, 15 Nov 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/11-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Payment initiation and smart contracts</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/11-08/</link>
+      <pubDate>Fri, 08 Nov 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/11-08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Developments and Research on CBDCs</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/10-11/</link>
+      <pubDate>Fri, 11 Oct 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/10-11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Permissioned vs Permissionless Blockchains: Tradeoffs in Trust and Performance</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/10-03/</link>
+      <pubDate>Thu, 03 Oct 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/10-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liquid Crypto Markets and Venture Investments</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/09-27/</link>
+      <pubDate>Fri, 27 Sep 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/09-27/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized Identity and Decentralized Social Networks</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/09-20/</link>
+      <pubDate>Fri, 20 Sep 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/09-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of Airdrops for user growth on blockchain platforms</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/09-13/</link>
+      <pubDate>Fri, 13 Sep 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/09-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maximal Extractable Value at L2 Blockchains</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/05-31/</link>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/05-31/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeFi Transactions per network</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/05-03/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/05-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I See You! Robust Measurement of Adversarial Behavior</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/04-12/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/04-12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Pricing for Non-fungible Resources - Designing Multidimensional Blockchain Fee Markets</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/04-05/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/04-05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Some interesting findings about L2 Protocols and Stablecoins</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/03-29/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/03-29/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evidence on the influence of stablecoin depegs on the price dynamics of non-stable crypto-assets</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/03-08/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/03-08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal Block Times under Decentralized Exchange Arbitrage</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/02-16/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/02-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L2 paper discussion</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/02-09/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/02-09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security of L2 platforms</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/02-02/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/02-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business models of L2 platforms</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/01-26/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/01-26/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architecture of L2 platforms</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/01-19/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/01-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“Zero Cost” Majority Attacks on Permissionless Proof of Work Blockchains</title>
+      <link>https://blockchain.stern.nyu.edu/publication/zero_cost_majority/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/publication/zero_cost_majority/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digitization of Transaction Terms Shift Parameter within TCE: Strong Smart Contract as a New Mode of Transaction Governance</title>
+      <link>https://blockchain.stern.nyu.edu/publication/digitization-of-transaction-terms/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/publication/digitization-of-transaction-terms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overcoming the Coordination Problem in New Marketplaces via Cryptographic Tokens</title>
+      <link>https://blockchain.stern.nyu.edu/publication/overcoming-coordination-problem/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/publication/overcoming-coordination-problem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When permissioned blockchains deliver more decentralization than permissionless</title>
+      <link>https://blockchain.stern.nyu.edu/publication/permissioned-blockchains/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/publication/permissioned-blockchains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blockchain Price vs.Quantity Controls</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/12-15/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/12-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informational Efficiency of Cryptocurrency Markets</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/11-03/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/11-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized Platform Generativity</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/06-15/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/06-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://blockchain.stern.nyu.edu/contact/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>https://blockchain.stern.nyu.edu/people/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://blockchain.stern.nyu.edu/tour/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
+      <link>https://blockchain.stern.nyu.edu/post/20-12-02-icml-best-paper/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/post/20-12-02-icml-best-paper/</guid>
+      <description>&lt;p&gt;Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
+&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
+&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Richard Hendricks Wins First Place in the Wowchemy Prize</title>
+      <link>https://blockchain.stern.nyu.edu/post/20-12-01-wowchemy-prize/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/post/20-12-01-wowchemy-prize/</guid>
+      <description>&lt;p&gt;Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
+&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
+&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blockchain.stern.nyu.edu/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
