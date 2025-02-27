@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hanna Halaburda | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/hanna-halaburda/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/hanna-halaburda/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hanna Halaburda</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 11 Oct 2024 12:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Hanna Halaburda</title>
+      <link>https://blockchain.stern.nyu.edu/author/hanna-halaburda/</link>
+    </image>
+    
+    <item>
+      <title>Recent Developments and Research on CBDCs</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/10-11/</link>
+      <pubDate>Fri, 11 Oct 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/10-11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Permissioned vs Permissionless Blockchains: Tradeoffs in Trust and Performance</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/10-03/</link>
+      <pubDate>Thu, 03 Oct 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/10-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“Zero Cost” Majority Attacks on Permissionless Proof of Work Blockchains</title>
+      <link>https://blockchain.stern.nyu.edu/publication/zero_cost_majority/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/publication/zero_cost_majority/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digitization of Transaction Terms Shift Parameter within TCE: Strong Smart Contract as a New Mode of Transaction Governance</title>
+      <link>https://blockchain.stern.nyu.edu/publication/digitization-of-transaction-terms/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/publication/digitization-of-transaction-terms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overcoming the Coordination Problem in New Marketplaces via Cryptographic Tokens</title>
+      <link>https://blockchain.stern.nyu.edu/publication/overcoming-coordination-problem/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/publication/overcoming-coordination-problem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When permissioned blockchains deliver more decentralization than permissionless</title>
+      <link>https://blockchain.stern.nyu.edu/publication/permissioned-blockchains/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/publication/permissioned-blockchains/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Madhav Karwa | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/madhav-karwa/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/madhav-karwa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Madhav Karwa</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Madhav Karwa</title>
+      <link>https://blockchain.stern.nyu.edu/author/madhav-karwa/</link>
+    </image>
+    
+    <item>
+      <title>Maximal Extractable Value at L2 Blockchains</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/05-31/</link>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/05-31/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Some interesting findings about L2 Protocols and Stablecoins</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/03-29/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/03-29/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ka Kei Chan | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/ka-kei-chan/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/ka-kei-chan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ka Kei Chan</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2024 12:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Ka Kei Chan</title>
+      <link>https://blockchain.stern.nyu.edu/author/ka-kei-chan/</link>
+    </image>
+    
+    <item>
+      <title>Payment initiation and smart contracts</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/11-08/</link>
+      <pubDate>Fri, 08 Nov 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/11-08/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
