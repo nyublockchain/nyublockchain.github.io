@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christoph Mueller-Bloch | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/christoph-mueller-bloch/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/christoph-mueller-bloch/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christoph Mueller-Bloch</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Christoph Mueller-Bloch</title>
+      <link>https://blockchain.stern.nyu.edu/author/christoph-mueller-bloch/</link>
+    </image>
+    
+    <item>
+      <title>When permissioned blockchains deliver more decentralization than permissionless</title>
+      <link>https://blockchain.stern.nyu.edu/publication/permissioned-blockchains/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/publication/permissioned-blockchains/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

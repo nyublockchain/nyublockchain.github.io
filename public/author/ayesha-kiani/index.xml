@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ayesha Kiani | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/ayesha-kiani/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/ayesha-kiani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ayesha Kiani</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Sep 2024 12:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Ayesha Kiani</title>
+      <link>https://blockchain.stern.nyu.edu/author/ayesha-kiani/</link>
+    </image>
+    
+    <item>
+      <title>Liquid Crypto Markets and Venture Investments</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/09-27/</link>
+      <pubDate>Fri, 27 Sep 2024 12:30:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/09-27/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

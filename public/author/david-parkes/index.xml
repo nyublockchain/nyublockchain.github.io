@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Parkes | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/david-parkes/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/david-parkes/index.xml" rel="self" type="application/rss+xml" />
+    <description>David Parkes</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>David Parkes</title>
+      <link>https://blockchain.stern.nyu.edu/author/david-parkes/</link>
+    </image>
+    
+    <item>
+      <title>I See You! Robust Measurement of Adversarial Behavior</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/04-12/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/04-12/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
