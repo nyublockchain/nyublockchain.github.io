@@ -1,5 +1,5 @@
 ---
-title: Architecture of L2 platforms
+title: Liquid Staking Protocols
 
 summary: In this session, we discussed Liquid Staking Protocols and how these various designs aim to address the scaling problem of L1. We particularly focused on factors contributing to efficiency gains (such as reduced decentralization, transaction bundling, decreased congestion, and off-chain computation) and how these measures will impact transaction fees and the long-term stability of the platforms.
 
