@@ -1,0 +1,73 @@
+<div class="team-section">
+  {{ range $.Site.Data.affiliates }}
+  <div class="team-member">
+    <img src="images/affiliates/{{ .image }}" alt="{{ .name }}" />
+    <h4><a href="{{ .social.personal}}">{{ .name }}</a></h4>
+    <div class="social-links">
+      {{ if .social.website }}<a href="{{ .social.website }}">Website</a>{{ end
+      }}
+      {{ if .social.stern }}<a href="{{ .social.stern }}">NYU Stern</a>{{ end
+      }}
+      {{ if .social.courant }}<a href="{{ .social.courant }}">NYU Courant</a>{{ end
+      }}
+      {{ if .social.nova }}<a href="{{ .social.nova }}">Nova School of Business</a>{{ end
+      }}
+      {{ if .social.baruch }}<a href="{{ .social.baruch }}">Baruch</a>{{ end
+      }}
+    </div>
+  </div>
+  {{ end }}
+</div>
+
+<style>
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .team-member {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+    flex: 0 1 calc(25% - 20px);
+  }
+
+  @media (max-width: 768px) {
+    /* Common breakpoint for tablets and mobile devices */
+  }
+
+  .team-member img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .social-links {
+    margin-top: -5px;
+  }
+
+  .social-links a {
+    margin: 0 5px;
+    font-size: 18px;
+  }
+
+  .social-links a:hover {
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .team-member {
+      flex: 0 1 100%; /* Each team member takes full width */
+    }
+
+    .team-member img {
+      margin: auto; /* Center captions on small screens */
+    }
+
+    .team-member .social-links {
+      text-align: center; /* Center captions on small screens */
+    }
+  }
+</style>
