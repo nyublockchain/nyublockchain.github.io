@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Llewellyn D W Thomas | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/llewellyn-d-w-thomas/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/llewellyn-d-w-thomas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Llewellyn D W Thomas</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Llewellyn D W Thomas</title>
+      <link>https://blockchain.stern.nyu.edu/author/llewellyn-d-w-thomas/</link>
+    </image>
+    
+    <item>
+      <title>Decentralized Platform Generativity</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/06-15/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/06-15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
