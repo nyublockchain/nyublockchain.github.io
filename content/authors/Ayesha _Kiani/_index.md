@@ -13,7 +13,7 @@ superuser: true
 
 
 # Role/position
-role: Chief Operating Officer at MNNC Group
+role: Chief Operating Officer at MNNC Group and NYU faculty
 # Organizations/Affiliations
 organizations:
   - name: MNNC Group and New York University
