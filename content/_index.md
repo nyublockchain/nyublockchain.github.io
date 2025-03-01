@@ -8,13 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Blockchain Lab
+        NYU Blockchain Lab
       image:
         filename: logo.jpeg
 
       text: |
 
-        <font  style="margin-bottom:0;font-size:20px;"><p>The Blockchain Lab at NYU Stern is a research lab committed to pushing our frontier of knowledge in the blockchain and Web 3.0 space. We research technology developments and economic forces that shape blockchain platforms to understand how blockchain technologies and Web 3.0 can bring transparency, inclusivity and democracy to the internet.</p> <p>We study a broad range of research topics such as the tensions between decentralization and centralization, the tradeoffs in Layer 2 scaling solutions, and decentralized autonomous organizations. Our theoretical perspectives include platform competition, platform governance, platform policy, game theory, and mechanism design.</p> <p> We regularly attend academic and practitioner's conferences. If you are interested in chatting, please feel free to reach out. We closely collaborate with related research groups across NYU, such as the <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>, and the <a href="https://nyubnf.com/">NYU Blockchain & Fintech </a> </p></font>.
+        <font  style="margin-bottom:0;font-size:20px;"><p>The NYU Blockchain Lab is a research lab committed to pushing our frontier of knowledge in the blockchain and Web 3.0 space. We research technology developments and economic forces that shape blockchain platforms to understand how blockchain technologies and Web 3.0 can bring transparency, inclusivity and democracy to the internet.</p> <p>We study a broad range of research topics such as the tensions between decentralization and centralization, the tradeoffs in Layer 2 scaling solutions, and decentralized autonomous organizations. Our theoretical perspectives include platform competition, platform governance, platform policy, game theory, and mechanism design.</p> <p> We regularly attend academic and practitioner's conferences. If you are interested in chatting, please feel free to reach out. We closely collaborate with related research groups across NYU, such as the faculty group <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>, and students group such as the <a href="https://nyubnf.com/">NYU Blockchain & Fintech </a> and the Student Club (“Blockchain Lab”) organized by Ayesha Kiani</p></font>.
 
   - block: people
     content:
