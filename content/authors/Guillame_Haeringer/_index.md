@@ -11,7 +11,7 @@ weight: 3
 superuser: true
 
 # Role/position
-role: Professor at Baruch College
+role: Professor at Baruch College and NYU Stern
 
 # Organizations/Affiliations
 organizations:
