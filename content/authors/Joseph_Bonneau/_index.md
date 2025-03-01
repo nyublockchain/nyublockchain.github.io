@@ -11,7 +11,7 @@ weight: 8
 superuser: true
 
 # Role/position
-role: Associate Professor at Courant Institute, NYU
+role: Professor at Courant Institute, NYU
 
 # Organizations/Affiliations
 organizations:
