@@ -11,11 +11,11 @@ weight: 3
 superuser: true
 
 # Role/position
-role: Professor at Zicklin School of Business
+role: Professor at Baruch College
 
 # Organizations/Affiliations
 organizations:
-  - name: Zicklin School of Business, Baruch College 
+  - name: Professor at Baruch College and NYU Stern 
     url: 'https://sites.google.com/site/guillaumehaeringer/'
 
 social:
