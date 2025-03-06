@@ -11,7 +11,7 @@ weight: 16
 superuser: false
 
 # Role/position
-role: Research Assistant at NYU Stern
+role: Student at NYU Gallatin and Research Assistant at NYU Stern
 
 # Organizations/Affiliations
 organizations:
