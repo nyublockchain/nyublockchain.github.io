@@ -16,15 +16,14 @@ role: Student at NYU Gallatin and Research Assistant at NYU Stern
 # Organizations/Affiliations
 organizations:
   - name: New York University
-    url: 'https://www.stern.nyu.edu/faculty/bio/hanna-halaburda'
 
 social:
   - icon: instagram
     icon_pack: fab
-    link: https://www.instagram.com/benskaar/
+    link: 'https://www.instagram.com/benskaar/'
  -  icon: linkedin
     icon_packt: fab
-    link: https://www.linkedin.com/in/benskaar/
+    link: 'https://www.linkedin.com/in/benskaar/'
 
 
 
