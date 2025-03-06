@@ -17,7 +17,6 @@ role: Student at NYU Gallatin and Research Assistant at NYU Stern
 organizations:
   - name: New York University
 
-  - 
 social:
   - icon: linkedin
     icon_pack: fab
