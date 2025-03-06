@@ -22,6 +22,10 @@ social:
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/benskaar/
+ -  icon: linkedin
+    icon_packt: fab
+    link: https://www.linkedin.com/in/benskaar/
+
 
 
 # Link to a PDF of your resume/CV from the About widget.
@@ -39,7 +43,8 @@ highlight_name: false
 interests:
   - NFT Markets
   - Decentralized Autonomous Organizations
- 
+  - Decentralized Finance
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
