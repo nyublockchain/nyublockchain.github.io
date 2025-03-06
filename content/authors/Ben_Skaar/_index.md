@@ -10,15 +10,14 @@ weight: 20
 # Is this the primary user of the site?
 superuser: true
 
-
-
 # Role/position
-role: Chief Operating Officer at MNNC Group and NYU faculty
+role: Student at NYU Gallatin and Research Assistant at NYU Stern
+
 # Organizations/Affiliations
 organizations:
-  - name: MNNC Group and New York University
-    url: 'https://www.linkedin.com/in/ayeshakiani/'
+  - name: New York University
 
+  - 
 social:
   - icon: linkedin
     icon_pack: fab
