@@ -5,10 +5,11 @@ title: Ben Skaar
 # Full Name (for SEO)
 first_name: Ben
 last_name: Skaar
-weight: 16
+weight: 20
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
+
 
 # Role/position
 role: Student at NYU Gallatin and Research Assistant at NYU Stern
