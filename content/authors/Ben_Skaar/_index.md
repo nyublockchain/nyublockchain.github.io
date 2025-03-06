@@ -1,11 +1,11 @@
 ---
 # Display name
-title: Ayesha Kiani
+title: Ben Skaar
 
 # Full Name (for SEO)
-first_name: Ayesha
-last_name: Kiani
-weight: 19
+first_name: Ben
+last_name: Skaar
+weight: 20
 
 # Is this the primary user of the site?
 superuser: true
