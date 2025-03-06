@@ -23,7 +23,7 @@ social:
     icon_pack: fab
     link: 'https://www.instagram.com/benskaar/'
  -  icon: linkedin
-    icon_packt: fab
+    icon_pack: fab
     link: 'https://www.linkedin.com/in/benskaar/'
 
 
