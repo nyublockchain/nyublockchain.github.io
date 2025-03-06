@@ -38,7 +38,10 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
-
+interests:
+  - NFT Markets
+  - Decentralized Autonomous Organizations
+  - Decentralized Finance
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -46,8 +49,3 @@ user_groups:
   - Researchers
 
 ---
-
-Ayesha Kiani is the Chief Operating Officer of MNNC Group, having previously held the same role at LedgerPrime. She also serves as a Faculty Professor at NYU Tandon School of Engineering, where she focuses on teaching and researching in Blockchain and Distributed Ledger Technology. Previously, Ayesha was a Managing Director at Republic Crypto, where she led various business development intiatives like regulated token sales and Republic's Security Token presale.
-
-Prior to that, she was an integral early employee of Consensys, contributing to SingularDTV. Beyond her corporate and academic contributions, Ayesha is an Investor Board Member at Ventures for America and a Venture Partner at NextGen Ventures.
-
