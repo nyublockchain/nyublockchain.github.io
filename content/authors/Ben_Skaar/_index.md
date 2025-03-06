@@ -21,7 +21,10 @@ organizations:
 social:
   - icon: linkedin
     icon_pack: fab
-    link: ttps://www.linkedin.com/in/ayeshakiani/
+    link: https://www.linkedin.com/in/benskaar/
+  - icon: instagram
+    icon_pack: fab
+    link: 'https://www.instagram.com/benskaar/' 
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
