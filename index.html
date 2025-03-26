@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYU Blockchain Lab</title>
+  <style>
+    :root {
+      --primary: #6a1b9a;
+      --primary-light: #9c4dcc;
+      --primary-dark: #38006b;
+      --accent: #8e24aa;
+      --text-on-primary: #ffffff;
+      --text-primary: #333333;
+      --text-secondary: #666666;
+      --background: #f9f9fc;
+      --card-bg: #ffffff;
+      --border: #e0e0e0;
+      --shadow: 0 4px 6px rgba(0,0,0,0.1);
+      --transition: all 0.3s ease;
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+    
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+    
+    a:hover {
+      color: var(--primary-light);
+      text-decoration: underline;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    /* Header */
+    header {
+      background-color: var(--primary-dark);
+      color: var(--text-on-primary);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow);
+    }
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+    }
+    
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--text-on-primary);
+    }
+    
+    .nav-menu {
+      display: flex;
+      list-style: none;
+    }
+    
+    .nav-item {
+      margin-left: 2rem;
+    }
+    
+    .nav-link {
+      color: var(--text-on-primary);
+      font-weight: 500;
+    }
+    
+    .nav-link:hover {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .search-icon {
+      color: var(--text-on-primary);
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    
+    /* Mobile menu */
+    .menu-toggle {
+      display: none;
+      cursor: pointer;
+      font-size: 1.5rem;
+      color: var(--text-on-primary);
+    }
+    
+    /* Hero section */
+    .hero {
+      padding: 4rem 0;
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+      color: var(--text-on-primary);
+    }
+    
+    .hero-content {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    
+    .hero-text {
+      flex: 1;
+      min-width: 300px;
+    }
+    
+    .hero-title {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+    
+    .hero-description {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .hero-description a {
+      color: #f1c40f;
+    }
+    
+    .hero-description a:hover {
+      text-decoration: underline;
+    }
+    
+    .hero-image {
+      flex: 1;
+      min-width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+      transition: transform 0.3s ease;
+    }
+    
+    .hero-image img:hover {
+      transform: scale(1.02);
+    }
+    
+    /* Sections */
+    .section {
+      padding: 4rem 0;
+    }
+    
+    .section-title {
+      font-size: 2.2rem;
+      color: var(--primary);
+      text-align: center;
+      margin-bottom: 2.5rem;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background-color: var(--accent);
+      border-radius: 2px;
+    }
+    
+    /* People section */
+    .people-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    
+    .person-card {
+      background-color: var(--card-bg);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+    }
+    
+    .person-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    
+    .person-avatar {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    
+    .person-info {
+      padding: 1.5rem;
+      text-align: center;
+    }
+    
+    .person-name {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .person-title {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      list-style: none;
+    }
+    
+    .social-link {
+      background-color: var(--primary-light);
+      color: white;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+    
+    .social-link:hover {
+      background-color: var(--primary);
+      transform: scale(1.1);
+    }
+    
+    /* Talks section */
+    .talk-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    
+    .talk-card {
+      background-color: var(--card-bg);
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+      border-left: 4px solid var(--primary);
+    }
+    
+    .talk-card:hover {
+      transform: translateX(5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+    
+    .talk-title {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary-dark);
+    }
+    
+    .talk-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+    
+    .talk-authors {
+      font-weight: 500;
+    }
+    
+    .talk-date {
+      background-color: var(--primary-light);
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+    }
+    
+    .talk-description {
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+    }
+    
+    .talk-links {
+      display: flex;
+      gap: 0.75rem;
+    }
+    
+    .talk-link {
+      padding: 0.4rem 1rem;
+      background-color: transparent;
+      border: 1px solid var(--primary);
+      color: var(--primary);
+      border-radius: 4px;
+      font-size: 0.9rem;
+      transition: var(--transition);
+    }
+    
+    .talk-link:hover {
+      background-color: var(--primary);
+      color: white;
+      text-decoration: none;
+    }
+    
+    /* Research section */
+    .research-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    
+    .research-card {
+      background-color: var(--card-bg);
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+    }
+    
+    .research-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    }
+    
+    .research-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary-dark);
+    }
+    
+    .research-authors {
+      margin-bottom: 0.5rem;
+      color: var(--text-secondary);
+    }
+    
+    .research-links {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+    
+    .see-all-link {
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+      font-weight: 500;
+      color: var(--primary);
+    }
+    
+    .see-all-link:hover {
+      color: var(--primary-light);
+    }
+    
+    /* Footer */
+    footer {
+      background-color: var(--primary-dark);
+      color: var(--text-on-primary);
+      padding: 2rem 0;
+      text-align: center;
+    }
+    
+    .footer-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .footer-copyright {
+      margin-bottom: 1rem;
+    }
+    
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .footer-powered {
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        flex-direction: column;
+        background-color: var(--primary-dark);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+      }
+      
+      .nav-menu.active {
+        left: 0;
+      }
+      
+      .nav-item {
+        margin: 1.5rem 0;
+      }
+      
+      .menu-toggle {
+        display: block;
+      }
+      
+      .hero-content {
+        flex-direction: column;
+      }
+      
+      .hero-text, .hero-image {
+        flex: 1 1 100%;
+      }
+    }
+    
+    /* Utility classes */
+    .text-center {
+      text-align: center;
+    }
+    
+    .mt-1 { margin-top: 0.5rem; }
+    .mt-2 { margin-top: 1rem; }
+    .mt-3 { margin-top: 1.5rem; }
+    .mt-4 { margin-top: 2rem; }
+    
+    .mb-1 { margin-bottom: 0.5rem; }
+    .mb-2 { margin-bottom: 1rem; }
+    .mb-3 { margin-bottom: 1.5rem; }
+    .mb-4 { margin-bottom: 2rem; }
+    
+    /* Icons */
+    .icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Academic icons for Google Scholar, etc. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo">NYU Blockchain Lab</a>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#people" class="nav-link">People</a>
+          </li>
+          <li class="nav-item">
+            <a href="#talks" class="nav-link">Talks</a>
+          </li>
+          <li class="nav-item">
+            <a href="#research" class="nav-link">Research</a>
+          </li>
+          <li class="nav-item">
+            <a href="#featured-research" class="nav-link">Affiliated Student Clubs</a>
+          </li>
+        </ul>
+        <div class="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">NYU Blockchain Lab</h1>
+          <p class="hero-description">
+            The NYU Blockchain Lab is a research lab committed to pushing our frontier of knowledge in the blockchain and Web 3.0 space. We research technology developments and economic forces that shape blockchain platforms to understand how blockchain technologies and Web 3.0 can bring transparency, inclusivity and democracy to the internet.
+          </p>
+          <p class="hero-description">
+            We study a broad range of research topics such as the tensions between decentralization and centralization, the tradeoffs in Layer 2 scaling solutions, and decentralized autonomous organizations. Our theoretical perspectives include platform competition, platform governance, platform policy, game theory, and mechanism design.
+          </p>
+          <p class="hero-description">
+            We regularly attend academic and practitioner's conferences. If you are interested in chatting, please feel free to reach out. We closely collaborate with related research groups across NYU, such as the faculty group <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>, and students group such as the <a href="https://nyubnf.com/">NYU Stern Blockchain & Fintech</a> and the <a href="https://www.nyublockchainlab.xyz/partners">Student Club ("Blockchain Lab")</a> organized by Ayesha Kiani.
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="https://blockchain.stern.nyu.edu/media/logo_hu15663100775197474986.jpeg" alt="NYU Blockchain Lab Logo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- People Section -->
+  <section id="people" class="section">
+    <div class="container">
+      <h2 class="section-title">Researchers</h2>
+      <div class="people-grid">
+        <!-- Person 1 -->
+        <div class="person-card">
+          <img class="person-avatar" src="avatar_hu7398425727844902117.jpg" alt="Hanna Halaburda">
+          <div class="person-info">
+            <h3 class="person-name">Hanna Halaburda</h3>
+            <p class="person-title">Professor at NYU Stern</p>
+            <ul class="social-links">
+              <li><a href="https://scholar.google.co.uk/citations?user=MWBoHwgAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/hanna-halaburda-7b368b12" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Person 2 -->
+        <div class="person-card">
+          <img class="person-avatar" src="avatar.jpeg_hu10237104687452610358.jpg" alt="Yannis Bakos">
+          <div class="person-info">
+            <h3 class="person-name">Yannis Bakos</h3>
+            <p class="person-title">Professor at NYU Stern</p>
+            <ul class="social-links">
+              <li><a href="https://scholar.google.com/citations?user=SoeFv1UAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/yannis-bakos-290741/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Person 3 -->
+        <div class="person-card">
+          <img class="person-avatar" src="avatar_hu3977524943670326284.jpeg" alt="Guillaume Haeringer">
+          <div class="person-info">
+            <h3 class="person-name">Guillaume Haeringer</h3>
+            <p class="person-title">Professor at Baruch College and NYU Stern</p>
+            <ul class="social-links">
+              <li><a href="https://scholar.google.com/citations?user=4zQaiJcAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/guillaume-haeringer-35700b77" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Person 4 -->
+        <div class="person-card">
+          <img class="person-avatar" src="avatar_hu16334098354816759453.jpg" alt="Daniel Obermeier">
+          <div class="person-info">
+            <h3 class="person-name">Daniel Obermeier</h3>
+            <p class="person-title">Professor at Nova School of Business and Economics</p>
+            <ul class="social-links">
+              <li><a href="https://scholar.google.com/citations?user=pKEkQ_cAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/daniel-obermeier-789ab3b9/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- More people can be added here -->
+        <div class="person-card">
+          <img class="person-avatar" src="avatar.jpeg_hu10191089103346846534.jpeg" alt="Raveesh Mayya">
+          <div class="person-info">
+            <h3 class="person-name">Raveesh Mayya</h3>
+            <p class="person-title">Professor at NYU Stern</p>
+            <ul class="social-links">
+              <li><a href="https://scholar.google.com/citations?user=165RT70AAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/raveesh" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="person-card">
+          <img class="person-avatar" src="avatar_hu12771091918603271675.jpg" alt="Abdoulaye Ndiaye">
+          <div class="person-info">
+            <h3 class="person-name">Abdoulaye Ndiaye</h3>
+            <p class="person-title">Professor at NYU Stern</p>
+            <ul class="social-links">
+              <li><a href="https://scholar.google.com/citations?user=u-rV6XoAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/abdoulaye-ndiaye-17375332/en" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="person-card">
+          <img class="person-avatar" src="avatar_hu3278678849749817238.jpeg" alt="Abdoulaye Ndiaye">
+          <div class="person-info">
+            <h3 class="person-name">Joseph Bonneau</h3>
+            <p class="person-title">Professor at Courant Institute, NYU</p>
+            <ul class="social-links">
+              <li><a href="https://scholar.google.com/citations?user=Ko1bXSkAAAAJ&hl=en" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/joseph-bonneau-15419920/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+         <div class="person-card">
+          <img class="person-avatar" src="avatar_hu232345947072826154.png" alt="Abdoulaye Ndiaye">
+          <div class="person-info">
+            <h3 class="person-name">Benedikt Bünz</h3>
+            <p class="person-title">Professor at Courant Institute, NYU</p>
+            <ul class="social-links">
+              <li><a href="https://scholar.google.es/citations?user=Hj82r7MAAAAJ" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/buenz/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        
+
+        <div class="person-card">
+          <img class="person-avatar" src="avatar_hu9921604987552610930.jpeg" alt="Abdoulaye Ndiaye">
+          <div class="person-info">
+            <h3 class="person-name">Ayesha Kiani</h3>
+            <p class="person-title">Chief Operating Officer at MNNC Group and NYU faculty</p>
+            <ul class="social-links">
+              <li><a href="https://www.linkedin.com/in/ayeshakiani/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="person-card">
+          <img class="person-avatar" src="avatar_hu14956222452686713054.jpg" alt="Abdoulaye Ndiaye">
+          <div class="person-info">
+            <h3 class="person-name">Gustavo Grivol</h3>
+            <p class="person-title">PhD Student at NYU Stern</p>
+            <ul class="social-links">
+              <li><a href="https://www.linkedin.com/in/gustavo-grivol-782170201/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      
+        <div class="person-card">
+          <img class="person-avatar" src="avatar_hu4735468466106898619.jpeg" alt="Abdoulaye Ndiaye">
+          <div class="person-info">
+            <h3 class="person-name">Ben Skaar</h3>
+            <p class="person-title">Student at NYU Gallatin and Research Assistant at NYU Stern</p>
+            <ul class="social-links">
+              <li><a href="https://www.linkedin.com/in/benskaar/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Research Section -->
+  <section id="featured-research" class="section">
+    <div class="container">
+      <h2 class="section-title">Affiliated Student Clubs</h2>
+      <div class="featured-container" style="display: flex; gap: 2rem; flex-wrap: wrap;">
+        <!-- First Featured Box -->
+        <div class="featured-box" style="flex: 1; min-width: 300px; background-color: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; transition: all 0.3s ease;">
+	<div class="featured-content" style="padding: 2rem; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+	  <h3 style="font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 1rem;"><a href="https://nyubnf.com">NYU Stern Blockchain & Fintech</a></h3>
+	  <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+	    NYU Stern Blockchain & Fintech is a student organization focused on the bringing opportunities to students through connection with sectors through speaker, recruiting, and networking events. 
+	  </p><div class="featured-image-container" style="height: 200px; background-color: #ffffff; display: flex; align-items: center; justify-content: center; border-radius: 8px; margin-bottom: 1rem; border: none;">
+	  <img src="logo_nyu_blockchain_fintech.webp" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+		</div>
+	</div>
+        </div>
+        
+        <!-- Second Featured Box -->
+        <div class="featured-box" style="flex: 1; min-width: 300px; background-color: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; transition: all 0.3s ease;">
+          <div class="featured-content" style="padding: 2rem;">
+            <h3 style="font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 1rem;"><a href="https://www.nyublockchainlab.xyz">NYU Blockchain Lab -- Student Events</a></h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+              NYU Blockchain Lab — Student Events connects students with the ideas, people, and tools shaping the future of blockchain and distributed ledger technology. In partnership with:
+            </p><div class="featured-image-container" style="height: 200px; background-color: #ffffff; display: flex; align-items: center; justify-content: center; border-radius: 8px; margin-bottom: 1rem; border: none;">
+	  <img src="Logos2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+		</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Talks Section -->
+  <section id="talks" class="section">
+    <div class="container">
+      <h2 class="section-title">Research Talks and Discussions</h2>
+      <div class="talk-list">
+        <!-- Talk 1 -->
+	<div class="talk-card">
+          <h3 class="talk-title">LLM Analysis on CBDC Adoption in China: Evidences from Social Media</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Sylvia Xiaolin Xiao</span>
+            <span class="talk-date">Mar 21, 2025</span>
+          </div>
+          <p class="talk-description">
+		In this talk Prof. Sylvia Xiaolin Xiao presented her work in progress using LLM to analyze texts of social media related to CBDC adoption.	
+          </p>
+        </div>
+	      
+	<div class="talk-card">
+          <h3 class="talk-title">Blockchain, Antiquities, and Novel Economic Models of Restitution</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Amy Whitaker</span>
+            <span class="talk-date">Mar 14, 2025</span>
+          </div>
+          <p class="talk-description">
+            In this talk Prof. Amy Whitaker discussed designing novel economic and contractual systems using blockchain to help with cases of restitution of art and culture  
+          </p>
+        </div>
+	      
+	      
+	<div class="talk-card">
+          <h3 class="talk-title">Agent-based modeling of Execution Tickets</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Pascal Stichler</span>
+            <span class="talk-date">Mar 7, 2025</span>
+          </div>
+          <p class="talk-description">
+            Execution Tickets are currently debated as one of the most promising approaches to streamline incentives at protocol level. We created a holistic overview of potential mechanism designs and implementing an agent-based model to realistically compare different mechanism designs and identify potential drawbacks early on. The agent-based modeling approach is presented together with the results.
+	  </p>
+        </div>
+        
+        <!-- Talk 2 -->
+        <div class="talk-card">
+          <h3 class="talk-title">Tokenization and Fantasy Sports Platform</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Michael Zhao, Ilari Paasivirta</span>
+            <span class="talk-date">Feb 28, 2025</span>
+          </div>
+          <p class="talk-description">
+            In this talk, Michael Zhao and Ilari Paasivirta presented their project on money tracking within Dream11, a fantasy sports platform
+          </p>
+        </div>
+        
+        <!-- Talk 3 -->
+        <div class="talk-card">
+          <h3 class="talk-title">Bitcoin Staking, Overview of the Babylon Protocol</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Gustavo Grivol</span>
+            <span class="talk-date">Feb 14, 2025</span>
+          </div>
+          <p class="talk-description">
+            In this talk we discussed the main mechanisms behind the Babylon Protocol, functionalities and implications for the Bitcoin Ecossystem.
+          </p>
+        </div>
+        
+        <!-- Talk 4 -->
+        <div class="talk-card">
+          <h3 class="talk-title">DAOs within the digital art/web3 sphere</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Ben Skaar</span>
+            <span class="talk-date">Feb 7, 2025</span>
+          </div>
+          <p class="talk-description">
+            In this meeting, Ben Skaar presented his study on the role of Decentralized Autonomous Organization (DAOs) in the NFT space and how the organization of DAOs specialized in NFTs
+          </p>
+        </div>
+        
+        <!-- Talk 5 -->
+        <div class="talk-card">
+          <h3 class="talk-title">Primer on Restaking</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Gustavo Grivol</span>
+            <span class="talk-date">Jan 24, 2025</span>
+          </div>
+          <p class="talk-description">
+            In this meeting we discussed the main objectives and implementations of restaking in Blockchains, with focus on the EigenLayer protocol
+          </p>
+        </div>
+        
+        <!-- See more link -->
+        <a href="#" class="see-all-link">See more talks from NYU Blockchain Lab <i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section id="research" class="section">
+    <div class="container">
+      <h2 class="section-title">Research</h2>
+      <div class="research-list">
+        <!-- Publication 1 -->
+        <div class="research-card">
+          <h3 class="research-title">"Parallel Execution Fee Mechanisms"</h3>
+          <p class="research-authors">Abdoulaye Ndiaye (2024)</p>
+          <div class="research-links">
+            <a href="https://doi.org/https://doi.org/10.1287/mnsc.2023.02426" class="talk-link" target="_blank">DOI</a>
+            <a href="https://abdouecon.github.io/research/papers/Relative_Pricing.pdf" class="talk-link" target="_blank">PDF</a>
+          </div>
+        </div>
+        
+        <!-- Publication 2 -->
+        <div class="research-card">
+          <h3 class="research-title">"Zero Cost" Majority Attacks on Permissionless Proof of Work Blockchains</h3>
+          <p class="research-authors">Joshua S. Gans, Hanna Halaburda (2024)</p>
+          <div class="research-links">
+            <a href="https://doi.org/https://doi.org/10.1287/mnsc.2023.02426" class="talk-link" target="_blank">DOI</a>
+            <a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2023.02426" class="talk-link" target="_blank">Link</a>
+          </div>
+        </div>
+        
+        <!-- Publication 3 -->
+        <div class="research-card">
+          <h3 class="research-title">Beyond Bitcoin Economics of Digital Currencies and Blockchain Technologies</h3>
+          <p class="research-authors">Hanna Halaburda, Miklos Sarvary, Guillaume Haeringer (2024)</p>
+          <div class="research-links">
+            <a href="https://doi.org/https://doi.org/10.1145/3442371" class="talk-link" target="_blank">DOI</a>
+            <a href="https://link.springer.com/book/10.1007/978-3-030-88931-9" class="talk-link" target="_blank">Link</a>
+          </div>
+        </div>
+        
+        <!-- See more link -->
+        <a href="#" class="see-all-link">See more research from NYU Blockchain Lab<i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-copyright">© 2025 NYU Blockchain Lab. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="footer-powered">Published with Hugo Blox Builder — the free, open source website builder that empowers creators.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile Menu Toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+    
+    // Close menu when clicking a link
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+      });
+    });
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({F
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+    
+    // Animation on scroll
+    const animate
