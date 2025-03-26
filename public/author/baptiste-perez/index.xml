@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Baptiste Perez | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/baptiste-perez/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/baptiste-perez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Baptiste Perez</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Baptiste Perez</title>
+      <link>https://blockchain.stern.nyu.edu/author/baptiste-perez/</link>
+    </image>
+    
+    <item>
+      <title>Evidence on the influence of stablecoin depegs on the price dynamics of non-stable crypto-assets</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/03-08/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/03-08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L2 paper discussion</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/02-09/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/02-09/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Praveen Pathak | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/praveen-pathak/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/praveen-pathak/index.xml" rel="self" type="application/rss+xml" />
+    <description>Praveen Pathak</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Praveen Pathak</title>
+      <link>https://blockchain.stern.nyu.edu/author/praveen-pathak/</link>
+    </image>
+    
+    <item>
+      <title>Informational Efficiency of Cryptocurrency Markets</title>
+      <link>https://blockchain.stern.nyu.edu/past_talks/11-03/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://blockchain.stern.nyu.edu/past_talks/11-03/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

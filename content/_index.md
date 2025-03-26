@@ -1,66 +1,47 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Research and Discussion Group"
+title:
 date: 2022-10-24
 type: landing
 
 sections:
-  # About Us section
-  - block: about.biography
-    id: about
-    design:
-      spacing:
-        padding: ["50px", "0", "50px", "0"]
+  - block: hero
     content:
-      title: About Blockchain Lab
-      username: admin
+      title: |
+        NYU Blockchain Lab
+      image:
+        filename: logo.jpeg
 
-  # Affiliates section
-  - block: experience
-    id: affiliates
+      text: |
+
+        <font  style="margin-bottom:0;font-size:20px;"><p>The NYU Blockchain Lab is a research lab committed to pushing our frontier of knowledge in the blockchain and Web 3.0 space. We research technology developments and economic forces that shape blockchain platforms to understand how blockchain technologies and Web 3.0 can bring transparency, inclusivity and democracy to the internet.</p> <p>We study a broad range of research topics such as the tensions between decentralization and centralization, the tradeoffs in Layer 2 scaling solutions, and decentralized autonomous organizations. Our theoretical perspectives include platform competition, platform governance, platform policy, game theory, and mechanism design.</p> <p> We regularly attend academic and practitioner's conferences. If you are interested in chatting, please feel free to reach out. We closely collaborate with related research groups across NYU, such as the faculty group <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>, and students group such as the <a href="https://nyubnf.com/">NYU Blockchain & Fintech </a> and the Student Club (“Blockchain Lab”) organized by Ayesha Kiani.</p></font>
+
+  - block: people
     content:
-      title: Affiliates
-      subtitle: Blockchain Lab Members
-      text: |-
-        {{< teamSection >}}
-      count: 1
+      title: 
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Principal Investigators
+          - Researchers
+          - Grad Students
+          - Administration
+          - Visitors
+          - Alumni
+      sort_by: Params.weight
+      sort_ascending: true
     design:
-      columns: "2"
-    
-  # Talks section
-  - block: collection
-    id: future_talks
-    content:
-      title: Upcoming Talks
-      subtitle: ""
-      text: ""
-  # Choose how many pages you would like to display (0 = all pages)
-      count: 0
-  # Filter on criteria
-      filters:
-        folders:
-          - future_talks
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-  # Choose how many pages you would like to offset by
-      offset: 0
-  # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-  # Choose a layout view
-      view: compact
-      columns: "2"
+      show_interests: false
+      show_role: true
+      show_social: true
 
 
-  # Talks section
+
+  
   - block: collection
     id: talks
     content:
-      title: Past Talks
+      title: Talks
       subtitle: ""
       text: ""
       # Choose how many pages you would like to display (0 = all pages)
@@ -84,48 +65,17 @@ sections:
       view: compact
       columns: "2"
 
-
-  # Working Papers
+ 
   - block: collection
-    id: papers
-    content:
-      title: Working Papers
-      filters:
-        folders:
-          - post
-        featured_only: false
-        count: 0
-    design:
-      columns: "2"
-      view: card
-
-  # Publications
-  - block: collection
-    id: publications
     content:
       title: Publications
+      text: ""
+      count: 5
       filters:
         folders:
           - publication
-        featured_only: false
-        count: 0
     design:
-      columns: "2"
-      view: card
+      view: citation
+      columns: '1'
 
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle: Reach out to us!
-      text: |-
-        Reach out to us via email, and we will try our best to respond as soon as possible. You can email us at blockchain@stern.nyu.edu.
-      email:  blockchain@stern.nyu.edu.
-      office_hours:
-        - "Fridays 12:00 PM to 1:30 PM EST"
-      # Automatically link email and phone or display as text?
-      autolink: true
-    design:
-      columns: "2"
 ---
-

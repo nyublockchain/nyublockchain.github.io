@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gustavo Grivol | NYU Blockchain Lab</title>
+    <link>http://localhost:4321/author/gustavo-grivol/</link>
+      <atom:link href="http://localhost:4321/author/gustavo-grivol/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gustavo Grivol</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:4321/author/gustavo-grivol/avatar_hu_60be5c5b7df8647f.jpg</url>
+      <title>Gustavo Grivol</title>
+      <link>http://localhost:4321/author/gustavo-grivol/</link>
+    </image>
+    
+  </channel>
+</rss>

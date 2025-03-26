@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daniel Obermeier | NYU Blockchain Lab</title>
+    <link>https://blockchain.stern.nyu.edu/author/daniel-obermeier/</link>
+      <atom:link href="https://blockchain.stern.nyu.edu/author/daniel-obermeier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Daniel Obermeier</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>https://blockchain.stern.nyu.edu/author/daniel-obermeier/avatar_hu_c2240df5bedd9484.jpg</url>
+      <title>Daniel Obermeier</title>
+      <link>https://blockchain.stern.nyu.edu/author/daniel-obermeier/</link>
+    </image>
+    
+  </channel>
+</rss>
