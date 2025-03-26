@@ -1,0 +1,7 @@
+title: "NYU Blockchain Lab"
+baseurl: "" # Empty for GitHub organization or user pages
+url: "https://nyublockcahin.github.io/nyublockchain.github.io" # Replace with your GitHub Pages URL
+theme: jekyll-theme-minimal # You can choose other themes too
+
+# Build settings
+markdown: kramdown
