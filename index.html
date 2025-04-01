@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NYU Blockchain Lab</title>
   <style>
@@ -329,6 +329,11 @@
       text-decoration: none;
     }
     
+    /* Hide talks after the first two */
+    .talk-card.hidden {
+      display: none;
+    }
+    
     /* Research section */
     .research-list {
       display: flex;
@@ -372,6 +377,7 @@
       margin-top: 2rem;
       font-weight: 500;
       color: var(--primary);
+      cursor: pointer;
     }
     
     .see-all-link:hover {
@@ -466,9 +472,9 @@
     }
   </style>
   <!-- FontAwesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./NYU Blockchain Lab_files/all.min.css">
   <!-- Academic icons for Google Scholar, etc. -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css">
+  <link rel="stylesheet" href="./NYU Blockchain Lab_files/academicons.min.css">
 </head>
 <body>
   <!-- Header -->
@@ -513,11 +519,11 @@
             We study a broad range of research topics such as the tensions between decentralization and centralization, the tradeoffs in Layer 2 scaling solutions, and decentralized autonomous organizations. Our theoretical perspectives include platform competition, platform governance, platform policy, game theory, and mechanism design.
           </p>
           <p class="hero-description">
-            We regularly attend academic and practitioner's conferences. If you are interested in chatting, please feel free to reach out. We closely collaborate with related research groups across NYU, such as the faculty group <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>, and student groups such as the <a href="https://nyubnf.com/">NYU Stern Blockchain & Fintech</a> and the <a href="https://www.nyublockchainlab.xyz/partners">Student Club ("Blockchain Lab")</a> organized by Ayesha Kiani.
+            We regularly attend academic and practitioner's conferences. If you are interested in chatting, please feel free to reach out. We closely collaborate with related research groups across NYU, such as the faculty group <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>, and student groups such as the <a href="https://nyubnf.com/">NYU Stern Blockchain &amp; Fintech</a> and the <a href="https://www.nyublockchainlab.xyz/partners">Student Club ("Blockchain Lab")</a> organized by Ayesha Kiani.
           </p>
         </div>
         <div class="hero-image">
-          <img src="logo_hu15663100775197474986.jpeg" alt="NYU Blockchain Lab Logo">
+          <img src="./NYU Blockchain Lab_files/logo_hu15663100775197474986.jpeg" alt="NYU Blockchain Lab Logo">
         </div>
       </div>
     </div>
@@ -530,12 +536,12 @@
       <div class="people-grid">
         <!-- Person 1 -->
         <div class="person-card">
-          <img class="person-avatar" src="avatar_hu7398425727844902117.jpg" alt="Hanna Halaburda">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar_hu7398425727844902117.jpg" alt="Hanna Halaburda">
           <div class="person-info">
             <h3 class="person-name">Hanna Halaburda</h3>
             <p class="person-title">Professor at NYU Stern</p>
             <ul class="social-links">
-              <li><a href="https://scholar.google.co.uk/citations?user=MWBoHwgAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://scholar.google.co.uk/citations?user=MWBoHwgAAAAJ&amp;hl=en&amp;oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
               <li><a href="https://www.linkedin.com/in/hanna-halaburda-7b368b12" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
           </div>
@@ -543,12 +549,12 @@
         
         <!-- Person 2 -->
         <div class="person-card">
-          <img class="person-avatar" src="avatar.jpeg_hu10237104687452610358.jpg" alt="Yannis Bakos">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar.jpeg_hu10237104687452610358.jpg" alt="Yannis Bakos">
           <div class="person-info">
             <h3 class="person-name">Yannis Bakos</h3>
             <p class="person-title">Professor at NYU Stern</p>
             <ul class="social-links">
-              <li><a href="https://scholar.google.com/citations?user=SoeFv1UAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://scholar.google.com/citations?user=SoeFv1UAAAAJ&amp;hl=en&amp;oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
               <li><a href="https://www.linkedin.com/in/yannis-bakos-290741/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
           </div>
@@ -556,12 +562,12 @@
         
         <!-- Person 3 -->
         <div class="person-card">
-          <img class="person-avatar" src="avatar_hu3977524943670326284.jpeg" alt="Guillaume Haeringer">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar_hu3977524943670326284.jpeg" alt="Guillaume Haeringer">
           <div class="person-info">
             <h3 class="person-name">Guillaume Haeringer</h3>
             <p class="person-title">Professor at Baruch College and NYU Stern</p>
             <ul class="social-links">
-              <li><a href="https://scholar.google.com/citations?user=4zQaiJcAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://scholar.google.com/citations?user=4zQaiJcAAAAJ&amp;hl=en&amp;oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
               <li><a href="https://www.linkedin.com/in/guillaume-haeringer-35700b77" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
           </div>
@@ -569,12 +575,12 @@
         
         <!-- Person 4 -->
         <div class="person-card">
-          <img class="person-avatar" src="avatar_hu16334098354816759453.jpg" alt="Daniel Obermeier">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar_hu16334098354816759453.jpg" alt="Daniel Obermeier">
           <div class="person-info">
             <h3 class="person-name">Daniel Obermeier</h3>
             <p class="person-title">Professor at Nova School of Business and Economics</p>
             <ul class="social-links">
-              <li><a href="https://scholar.google.com/citations?user=pKEkQ_cAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://scholar.google.com/citations?user=pKEkQ_cAAAAJ&amp;hl=en&amp;oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
               <li><a href="https://www.linkedin.com/in/daniel-obermeier-789ab3b9/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
           </div>
@@ -582,43 +588,43 @@
         
         <!-- More people can be added here -->
         <div class="person-card">
-          <img class="person-avatar" src="avatar.jpeg_hu10191089103346846534.jpeg" alt="Raveesh Mayya">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar.jpeg_hu10191089103346846534.jpeg" alt="Raveesh Mayya">
           <div class="person-info">
             <h3 class="person-name">Raveesh Mayya</h3>
             <p class="person-title">Professor at NYU Stern</p>
             <ul class="social-links">
-              <li><a href="https://scholar.google.com/citations?user=165RT70AAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://scholar.google.com/citations?user=165RT70AAAAJ&amp;hl=en&amp;oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
               <li><a href="https://www.linkedin.com/in/raveesh" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
         
         <div class="person-card">
-          <img class="person-avatar" src="avatar_hu12771091918603271675.jpg" alt="Abdoulaye Ndiaye">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar_hu12771091918603271675.jpg" alt="Abdoulaye Ndiaye">
           <div class="person-info">
             <h3 class="person-name">Abdoulaye Ndiaye</h3>
             <p class="person-title">Professor at NYU Stern</p>
             <ul class="social-links">
-              <li><a href="https://scholar.google.com/citations?user=u-rV6XoAAAAJ&hl=en&oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://scholar.google.com/citations?user=u-rV6XoAAAAJ&amp;hl=en&amp;oi=ao" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
               <li><a href="https://www.linkedin.com/in/abdoulaye-ndiaye-17375332/en" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
         
         <div class="person-card">
-          <img class="person-avatar" src="avatar_hu3278678849749817238.jpeg" alt="Abdoulaye Ndiaye">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar_hu3278678849749817238.jpeg" alt="Joseph Bonneau">
           <div class="person-info">
             <h3 class="person-name">Joseph Bonneau</h3>
             <p class="person-title">Professor at Courant Institute, NYU</p>
             <ul class="social-links">
-              <li><a href="https://scholar.google.com/citations?user=Ko1bXSkAAAAJ&hl=en" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+              <li><a href="https://scholar.google.com/citations?user=Ko1bXSkAAAAJ&amp;hl=en" class="social-link" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
               <li><a href="https://www.linkedin.com/in/joseph-bonneau-15419920/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
 
          <div class="person-card">
-          <img class="person-avatar" src="avatar_hu232345947072826154.png" alt="Abdoulaye Ndiaye">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar_hu232345947072826154.png" alt="Benedikt Bünz">
           <div class="person-info">
             <h3 class="person-name">Benedikt Bünz</h3>
             <p class="person-title">Professor at Courant Institute, NYU</p>
@@ -631,7 +637,7 @@
         
 
         <div class="person-card">
-          <img class="person-avatar" src="avatar_hu9921604987552610930.jpeg" alt="Abdoulaye Ndiaye">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar_hu9921604987552610930.jpeg" alt="Ayesha Kiani">
           <div class="person-info">
             <h3 class="person-name">Ayesha Kiani</h3>
             <p class="person-title">Chief Operating Officer at MNNC Group and NYU faculty</p>
@@ -642,7 +648,7 @@
         </div>
 
         <div class="person-card">
-          <img class="person-avatar" src="avatar_hu14956222452686713054.jpg" alt="Abdoulaye Ndiaye">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar_hu14956222452686713054.jpg" alt="Gustavo Grivol">
           <div class="person-info">
             <h3 class="person-name">Gustavo Grivol</h3>
             <p class="person-title">PhD Student at NYU Stern</p>
@@ -654,7 +660,7 @@
 
       
         <div class="person-card">
-          <img class="person-avatar" src="avatar_hu4735468466106898619.jpeg" alt="Abdoulaye Ndiaye">
+          <img class="person-avatar" src="./NYU Blockchain Lab_files/avatar_hu4735468466106898619.jpeg" alt="Ben Skaar">
           <div class="person-info">
             <h3 class="person-name">Ben Skaar</h3>
             <p class="person-title">Student at NYU Gallatin and Research Assistant at NYU Stern</p>
@@ -663,8 +669,6 @@
             </ul>
           </div>
         </div>
-        
-        
       </div>
     </div>
   </section>
@@ -677,11 +681,11 @@
         <!-- First Featured Box -->
         <div class="featured-box" style="flex: 1; min-width: 300px; background-color: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; transition: all 0.3s ease;">
 	<div class="featured-content" style="padding: 2rem; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-	  <h3 style="font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 1rem;"><a href="https://nyubnf.com">NYU Stern Blockchain & Fintech</a></h3>
+	  <h3 style="font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 1rem;"><a href="https://nyubnf.com/">NYU Stern Blockchain &amp; Fintech</a></h3>
 	  <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
-	    NYU Stern Blockchain & Fintech is a student organization focused on the bringing opportunities to students through connection with sectors through speaker, recruiting, and networking events. 
+	    NYU Stern Blockchain &amp; Fintech is a student organization focused on the bringing opportunities to students through connection with sectors through speaker, recruiting, and networking events. 
 	  </p><div class="featured-image-container" style="height: 200px; background-color: #ffffff; display: flex; align-items: center; justify-content: center; border-radius: 8px; margin-bottom: 1rem; border: none;">
-	  <img src="logo_nyu_blockchain_fintech.webp" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+	  <img src="./NYU Blockchain Lab_files/logo_nyu_blockchain_fintech.webp" style="max-width: 100%; max-height: 100%; object-fit: contain;">
 		</div>
 	</div>
         </div>
@@ -689,11 +693,11 @@
         <!-- Second Featured Box -->
         <div class="featured-box" style="flex: 1; min-width: 300px; background-color: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; transition: all 0.3s ease;">
           <div class="featured-content" style="padding: 2rem;">
-            <h3 style="font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 1rem;"><a href="https://www.nyublockchainlab.xyz">NYU Blockchain Lab -- Student Events</a></h3>
+            <h3 style="font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 1rem;"><a href="https://www.nyublockchainlab.xyz/">NYU Blockchain Lab -- Student Events</a></h3>
             <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
               NYU Blockchain Lab — Student Events connects students with the ideas, people, and tools shaping the future of blockchain and distributed ledger technology. In partnership with:
             </p><div class="featured-image-container" style="height: 200px; background-color: #ffffff; display: flex; align-items: center; justify-content: center; border-radius: 8px; margin-bottom: 1rem; border: none;">
-	  <img src="Logos2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+	  <img src="./NYU Blockchain Lab_files/Logos2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
 		</div>
           </div>
         </div>
@@ -707,18 +711,19 @@
       <h2 class="section-title">Research Talks and Discussions</h2>
       <div class="talk-list">
         <!-- Talk 1 -->
-	<div class="talk-card">
+        <div class="talk-card">
           <h3 class="talk-title">LLM Analysis on CBDC Adoption in China: Evidences from Social Media</h3>
           <div class="talk-meta">
             <span class="talk-authors">Sylvia Xiaolin Xiao</span>
             <span class="talk-date">Mar 21, 2025</span>
           </div>
           <p class="talk-description">
-		In this talk Prof. Sylvia Xiaolin Xiao presented her work in progress using LLM to analyze texts of social media related to CBDC adoption.	
+            In this talk Prof. Sylvia Xiaolin Xiao presented her work in progress using LLM to analyze texts of social media related to CBDC adoption.	
           </p>
         </div>
-	      
-	<div class="talk-card">
+        
+        <!-- Talk 2 -->
+        <div class="talk-card">
           <h3 class="talk-title">Blockchain, Antiquities, and Novel Economic Models of Restitution</h3>
           <div class="talk-meta">
             <span class="talk-authors">Amy Whitaker</span>
@@ -728,9 +733,9 @@
             In this talk Prof. Amy Whitaker discussed designing novel economic and contractual systems using blockchain to help with cases of restitution of art and culture  
           </p>
         </div>
-	      
-	      
-	<div class="talk-card">
+        
+        <!-- Talk 3 (initially hidden) -->
+        <div class="talk-card">
           <h3 class="talk-title">Agent-based modeling of Execution Tickets</h3>
           <div class="talk-meta">
             <span class="talk-authors">Pascal Stichler</span>
@@ -738,11 +743,11 @@
           </div>
           <p class="talk-description">
             Execution Tickets are currently debated as one of the most promising approaches to streamline incentives at protocol level. We created a holistic overview of potential mechanism designs and implementing an agent-based model to realistically compare different mechanism designs and identify potential drawbacks early on. The agent-based modeling approach is presented together with the results.
-	  </p>
+          </p>
         </div>
         
-        <!-- Talk 2 -->
-        <div class="talk-card">
+        <!-- Talk 4 (initially hidden) -->
+        <div class="talk-card hidden">
           <h3 class="talk-title">Tokenization and Fantasy Sports Platform</h3>
           <div class="talk-meta">
             <span class="talk-authors">Michael Zhao, Ilari Paasivirta</span>
@@ -753,8 +758,8 @@
           </p>
         </div>
         
-        <!-- Talk 3 -->
-        <div class="talk-card">
+        <!-- Talk 5 (initially hidden) -->
+        <div class="talk-card hidden">
           <h3 class="talk-title">Bitcoin Staking, Overview of the Babylon Protocol</h3>
           <div class="talk-meta">
             <span class="talk-authors">Gustavo Grivol</span>
@@ -765,32 +770,280 @@
           </p>
         </div>
         
-        <!-- Talk 4 -->
-        <div class="talk-card">
-          <h3 class="talk-title">DAOs within the digital art/web3 sphere</h3>
+        <!-- Talk 6 (initially hidden) -->
+        <div class="talk-card hidden">
+          <h3 class="talk-title">Liquid Staking Protocols</h3>
           <div class="talk-meta">
-            <span class="talk-authors">Ben Skaar</span>
-            <span class="talk-date">Feb 7, 2025</span>
+            <span class="talk-authors">Dheeraj Maske</span>
+            <span class="talk-date">Jan 19, 2025</span>
           </div>
           <p class="talk-description">
-            In this meeting, Ben Skaar presented his study on the role of Decentralized Autonomous Organization (DAOs) in the NFT space and how the organization of DAOs specialized in NFTs
+            In this session, we discussed Liquid Staking Protocols and how these various designs aim to address the scaling problem of L1. We particularly focused on factors contributing to efficiency gains (such as reduced decentralization, transaction bundling, decreased congestion, and off-chain computation) and how these measures will impact transaction fees and the long-term stability of the platforms.
           </p>
         </div>
         
-        <!-- Talk 5 -->
-        <div class="talk-card">
-          <h3 class="talk-title">Primer on Restaking</h3>
+        <!-- Talk 7 (initially hidden) -->
+        <div class="talk-card hidden">
+          <h3 class="talk-title">Relative Pricing and Efficient Allocation in Blockchains</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Abdoulaye Ndiaye</span>
+            <span class="talk-date">Dec 6, 2024</span>
+          </div>
+          <p class="talk-description">
+            In this meeting, Prof. Abdoulaye Ndiaye presented his paper "Relative Pricing and Efficient Allocation in Blockchains".
+          </p>
+        </div>
+        
+        <!-- Talk 8 (initially hidden) -->
+        <div class="talk-card hidden">
+          <h3 class="talk-title">On the Viability of Open-Source Financial Rails, Economic Security of Permissionless Consensus</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Jacob Leshno, Rafael Pass, Elaine Shi</span>
+            <span class="talk-date">Nov 22, 2024</span>
+          </div>
+          <p class="talk-description">
+            In this meeting, Prof. Jacob Leshno presented his recent paper with Prof.Rafael Pass and Prof. Elaine Shi, "On the Viability of Open-Source Financial Rails, Economic Security of Permissionless Consensus".
+          </p>
+        </div>
+        
+        <!-- Talk 9 (initially hidden) -->
+        <div class="talk-card hidden">
+          <h3 class="talk-title">Multi-block MEV</h3>
           <div class="talk-meta">
             <span class="talk-authors">Gustavo Grivol</span>
-            <span class="talk-date">Jan 24, 2025</span>
+            <span class="talk-date">Nov 15, 2024</span>
           </div>
           <p class="talk-description">
-            In this meeting we discussed the main objectives and implementations of restaking in Blockchains, with focus on the EigenLayer protocol
+            In this meeting we dicussed the implications of Maximal Extractable Value (MEV) over a sequence of blocks, how new strategies of MEV can arise under this scenario and how frequent this scenario can be.
           </p>
         </div>
         
+        <!-- Talk 10 (initially hidden) -->
+        <div class="talk-card hidden">
+          <h3 class="talk-title">Payment initiation and smart contracts</h3>
+          <div class="talk-meta">
+            <span class="talk-authors">Alistair Milne, Ka Kei Chan</span>
+            <span class="talk-date">Nov 8, 2024</span>
+          </div>
+          <p class="talk-description">
+            In this talk Alistair Milne (Loughborough University, UK) and Ka Kei Chan (Brunel University, UK) presented their draft paper, "Payment Initiation and Transaction Costs", exploring the choice in financial transactions between push initiation and pull initiation. The discussion also covered the role of pull initiation in the execution of smart contracts.
+          </p>
+        </div>
+
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Recent Developments and Research on CBDCs</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Hanna Halaburda, Jason Pearson</span>
+    <span class="talk-date">October 11, 2024</span>
+  </div>
+  <p class="talk-description">
+    In this week session we discussed the development of Central Banks Digital Currencies, their usage, implementation and related topics. Two papers were used for our discussion.
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Permissioned vs Permissionless Blockchains: Tradeoffs in Trust and Performance</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Hanna Halaburda, Yannis Bakos</span>
+    <span class="talk-date">October 3, 2024</span>
+  </div>
+  <p class="talk-description">
+    No description provided
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Liquid Crypto Markets and Venture Investments</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Ayesha Kiani</span>
+    <span class="talk-date">September 27, 2024</span>
+  </div>
+  <p class="talk-description">
+    No description provided
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Decentralized Identity and Decentralized Social Networks</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Gustavo Grivol</span>
+    <span class="talk-date">September 20, 2024</span>
+  </div>
+  <p class="talk-description">
+    This session we discussed recent advances in open-source protocols for decentralized identity and social networks, and their potential roles in response to cases where governments have banned social platforms.
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Effects of Airdrops for user growth on blockchain platforms</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Aviv Yaish, Benjamin Livshits</span>
+    <span class="talk-date">September 13, 2024</span>
+  </div>
+  <p class="talk-description">
+    In this session, Aviv Yaish presented his recent work on how airdrops can incentive user growth for blockchain platforms and how different type of users can play a role in the effects of airdrop distributions.
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Maximal Extractable Value at L2 Blockchains</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Madhav Karwa</span>
+    <span class="talk-date">May 31, 2024</span>
+  </div>
+  <p class="talk-description">
+    In this session we looked over recent analysis on Maximal Extractable Value over Layer 2 protocols
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">DeFi Transactions per network</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Gustavo Grivol</span>
+    <span class="talk-date">May 3, 2024</span>
+  </div>
+  <p class="talk-description">
+    In this session, we explored how each the DeFi enviroment for each blockchain would differentiate from each other in terms of transactions characteristics and how this differences were evolving.
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">I See You! Robust Measurement of Adversarial Behavior</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Lars Ankile, Matheus Venturyne Xavier Ferreira, David Parkes</span>
+    <span class="talk-date">April 12, 2024</span>
+  </div>
+  <p class="talk-description">
+    The paper introduces a novel surveillance metric to measure manipulative behavior in multi-agent systems, specifically focusing on decentralized finance (DeFi) and blockchain systems, and demonstrates its effectiveness through a natural experiment conducted on the Uniswap DeFi ecosystem. This paper is presented by Matheus
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Dynamic Pricing for Non-fungible Resources - Designing Multidimensional Blockchain Fee Markets</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Theo Diamandis, Alex Evans, Tarun Chitra, Guillermo Angeris</span>
+    <span class="talk-date">April 5, 2024</span>
+  </div>
+  <p class="talk-description">
+    The research proposes a method for designing fee markets in public blockchains that efficiently price multiple non-fungible resources. It utilizes a dynamic pricing mechanism based on a network designer-specified loss function, aligning incentives between the network, users, and miners to enhance overall performance.
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Some interesting findings about L2 Protocols and Stablecoins</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Madhav Karwa</span>
+    <span class="talk-date">March 29, 2024</span>
+  </div>
+  <p class="talk-description">
+    The discussion covers Ethereum's recent scalability upgrade facilitating L2 solutions integration and examines empirical methods to identify reasons for failures in stablecoins.
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Evidence on the influence of stablecoin depegs on the price dynamics of non-stable crypto-assets</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Baptiste Perez</span>
+    <span class="talk-date">March 8, 2024</span>
+  </div>
+  <p class="talk-description">
+    No description provided
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Optimal Block Times under Decentralized Exchange Arbitrage</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Josh Reed, Gustavo Grivol</span>
+    <span class="talk-date">February 16, 2024</span>
+  </div>
+  <p class="talk-description">
+    No description provided
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">L2 paper discussion</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Baptiste Perez</span>
+    <span class="talk-date">February 9, 2024</span>
+  </div>
+  <p class="talk-description">
+    No description provided
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Security of L2 platforms</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Not specified</span>
+    <span class="talk-date">February 2, 2024</span>
+  </div>
+  <p class="talk-description">
+    In this session, we discussed how and to what extent L2 blockchains inherit security guarantees from L1 blockchains and what new security risks arise with L2 technology.
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Business models of L2 platforms</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Not specified</span>
+    <span class="talk-date">January 26, 2024</span>
+  </div>
+  <p class="talk-description">
+    On most L2 platforms, the transaction fees users pay consist of a fee for the verification of their transaction on the L2 network and a fee to publish its proof on the L1 network. Since the L1 fees depend on congestion at the time the proof of an L2 transaction bundle is published on the L1, L2 platforms can generate profits if the fees they charge surpass their operational costs and the L1 fees they pay. In this session, we discussed under what circumstances an L2 platform can establish a viable business model.
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Architecture of L2 platforms</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Not specified</span>
+    <span class="talk-date">January 19, 2024</span>
+  </div>
+  <p class="talk-description">
+    In this session, we discussed different L2 architectures and how these various designs aim to address the scaling problem of L1. We particularly focused on factors contributing to efficiency gains (such as reduced decentralization, transaction bundling, decreased congestion, and off-chain computation) and how these measures will impact transaction fees and the long-term stability of the platforms.
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Blockchain Price vs.Quantity Controls</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Abdoulaye Ndiaye</span>
+    <span class="talk-date">December 15, 2023</span>
+  </div>
+  <p class="talk-description">
+    This paper proposes a new transaction fee mechanism for blockchain platforms like Ethereum. This paper is presented by Prof. Abdoulaye Ndiaye (NYU)
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Informational Efficiency of Cryptocurrency Markets</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Mahendrarajah Nimalendran, Praveen Pathak, Mariia Petryk, Liangfei Qiu</span>
+    <span class="talk-date">November 3, 2023</span>
+  </div>
+  <p class="talk-description">
+    This paper investiagtes the impact of regulatory compliance on the liquidity of cryptocurrencies. This paper is presented by Prof. Mariia Petryk (GMU)
+  </p>
+</div>
+
+<div class="talk-card hidden">
+  <h3 class="talk-title">Decentralized Platform Generativity</h3>
+  <div class="talk-meta">
+    <span class="talk-authors">Aija Leiponen, Llewellyn D W Thomas</span>
+    <span class="talk-date">June 15, 2023</span>
+  </div>
+  <p class="talk-description">
+    This paper delves into the underexplored realm of decentralized platforms, such as blockchains, contrasting them with centralized counterparts in terms of their impact on innovation dynamics. It uncovers how transaction validators and platform design intricacies shape generativity and network effects, enriching our comprehension of developer engagement and network dynamics in decentralized environments. This paper is presented by Prof. Aija Leiponen (Cornell)
+  </p>
+</div>
+
+
+        
         <!-- See more link -->
-        <a href="#" class="see-all-link">See more talks from NYU Blockchain Lab <i class="fas fa-angle-right"></i></a>
+        <a href="#" id="see-more-talks" class="see-all-link">See more talks from NYU Blockchain Lab <i class="fas fa-angle-right"></i></a>
       </div>
     </div>
   </section>
@@ -879,7 +1132,7 @@
         
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
-          window.scrollTo({F
+          window.scrollTo({
             top: targetElement.offsetTop - 80,
             behavior: 'smooth'
           });
@@ -887,5 +1140,18 @@
       });
     });
     
-    // Animation on scroll
-    const animate
+    // Show all talks when clicking "See more"
+    document.getElementById('see-more-talks').addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Show all hidden talks
+      document.querySelectorAll('.talk-card.hidden').forEach(talk => {
+        talk.classList.remove('hidden');
+      });
+      
+      // Hide the "See more" link
+      this.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
