@@ -329,8 +329,13 @@
       text-decoration: none;
     }
     
-    /* Hide talks after the first two */
+    /* Hide talks after the first few */
     .talk-card.hidden {
+      display: none;
+    }
+    
+    /* Hide research cards after the first few */
+    .research-card.hidden {
       display: none;
     }
     
@@ -1242,7 +1247,7 @@
 		  </div>
 		</div>
 		
-		<div class="research-card">
+		<div class="research-card hidden">
 		  <h3 class="research-title">Blockchain Toolbox for Digital Platforms</h3>
 		  <p class="research-authors">Hanna Halaburda, Guillaume Haeringer, Daniel Obermeier</p>
 		  <div class="research-links">
@@ -1250,7 +1255,7 @@
 		  </div>
 		</div>
 		
-		<div class="research-card">
+		<div class="research-card hidden">
 		  <h3 class="research-title">Decentralization and the Law of the Jungle: An Empirical Investigation of Ethereum's Market Mechanism</h3>
 		  <p class="research-authors">Hanna Halaburda, Daniel Obermeier</p>
 		  <div class="research-links">
@@ -1258,7 +1263,7 @@
 		  </div>
 		</div>
 		
-		<div class="research-card">
+		<div class="research-card hidden">
 		  <h3 class="research-title">Deductive Certainty? Exploring the Boundaries of Trust Formation in Smart Contracts on Blockchains</h3>
 		  <p class="research-authors">Daniel Obermeier, Joachim Henkel</p>
 		  <div class="research-links">
@@ -1266,8 +1271,15 @@
 		  </div>
 		</div>
 		
+		<div class="research-card hidden">
+		  <h3 class="research-title">Blockchains' Potential to Reshape the Economy: An Examination of Trust and Decentralization in Smart Contract-Based Applications</h3>
+		  <p class="research-authors">Daniel Quirin Obermeier</p>
+		  <div class="research-links">
+		    <a href="https://mediatum.ub.tum.de/1705303" class="talk-link" target="_blank">Link</a>
+		  </div>
+		</div>
 		
-		<div class="research-card">
+		<div class="research-card hidden">
 		  <h3 class="research-title">Token Tradability as a Platform Governance Mechanism: Evidence from a Policy Change</h3>
 		  <p class="research-authors">Yuxin Geng, Raveesh Mayya, Chenshuo Sun</p>
 		  <div class="research-links">
@@ -1275,7 +1287,7 @@
 		  </div>
 		</div>
         <!-- Publication 1 -->
-        <div class="research-card">
+        <div class="research-card hidden">
           <h3 class="research-title">"Parallel Execution Fee Mechanisms"</h3>
           <p class="research-authors">Abdoulaye Ndiaye (2024)</p>
           <div class="research-links">
@@ -1285,7 +1297,7 @@
         </div>
         
         <!-- Publication 2 -->
-        <div class="research-card">
+        <div class="research-card hidden">
           <h3 class="research-title">"Zero Cost" Majority Attacks on Permissionless Proof of Work Blockchains</h3>
           <p class="research-authors">Joshua S. Gans, Hanna Halaburda (2024)</p>
           <div class="research-links">
@@ -1295,7 +1307,7 @@
         </div>
         
         <!-- Publication 3 -->
-        <div class="research-card">
+        <div class="research-card hidden">
           <h3 class="research-title">Beyond Bitcoin Economics of Digital Currencies and Blockchain Technologies</h3>
           <p class="research-authors">Hanna Halaburda, Miklos Sarvary, Guillaume Haeringer (2024)</p>
           <div class="research-links">
@@ -1303,7 +1315,7 @@
             <a href="https://link.springer.com/book/10.1007/978-3-030-88931-9" class="talk-link" target="_blank">Link</a>
           </div>
         </div>
-	    <div class="research-card">
+	    <div class="research-card hidden">
       <h3 class="research-title">Verifiable Delay Functions</h3>
       <p class="research-authors">Dan Boneh, Joseph Bonneau, Benedikt Bünz, and Ben Fisch (2018)</p>
       <div class="research-links">
@@ -1311,7 +1323,7 @@
       </div>
     </div>
 
-    <div class="research-card">
+    <div class="research-card hidden">
       <h3 class="research-title">Bulletproofs: Short Proofs for Confidential Transactions and More</h3>
       <p class="research-authors">Benedikt Bünz, Jonathan Bootle, Dan Boneh, Andrew Poelstra, Pieter Wuille, and Greg Maxwell (2017)</p>
       <div class="research-links">
@@ -1319,7 +1331,7 @@
       </div>
     </div>
 
-<div class="research-card">
+<div class="research-card hidden">
       <h3 class="research-title">KZH-Fold: Accountable Voting from Sublinear Accumulation</h3>
       <p class="research-authors">George Kadianakis, Arantxa Zapico, Hossein Hafezi, B. Bünz (2025)</p>
       <div class="research-links">
@@ -1327,7 +1339,7 @@
       </div>
     </div>
 
-<div class="research-card">
+<div class="research-card hidden">
       <h3 class="research-title">How Much Public Randomness Do Modern Consensus Protocols Need?</h3>
       <p class="research-authors">Joseph Bonneau, Benedikt Bunz, Miranda Christ, and Yuval Efron (2024)</p>
       <div class="research-links">
@@ -1335,7 +1347,7 @@
       </div>
     </div>
 
-<div class="research-card">
+<div class="research-card hidden">
       <h3 class="research-title">Token Tradability as a Platform Governance Mechanism: Evidence from a Policy Change</h3>
       <p class="research-authors">Yuxin Geng, Raveesh Mayya, Chenshuo Sun (2024)</p>
       <div class="research-links">
@@ -1343,7 +1355,7 @@
       </div>
 </div>
 
- <div class="research-card">
+ <div class="research-card hidden">
       <h3 class="research-title">Atomic and Fair Data Exchange via Blockchain</h3>
       <p class="research-authors">Ertem Nusret Tas, István András Seres, Yinuo Zhang, Márk Melczer, Mahimna Kelkar, Joseph Bonneau, Valeria Nikolaenko (2024)</p>
       <div class="research-links">
@@ -1352,7 +1364,7 @@
     </div>
 
 
- <div class="research-card">
+ <div class="research-card hidden">
       <h3 class="research-title">Bicorn: An optimistically efficient distributed randomness beacon </h3>
       <p class="research-authors">Kevin Choi, Arasu Arun, Nirvan Tyagi, Joseph Bonneau (2023)</p>
       <div class="research-links">
@@ -1361,7 +1373,7 @@
 </div>
 
 
- <div class="research-card">
+ <div class="research-card hidden">
       <h3 class="research-title">Riggs: Decentralized Sealed-Bid Auctions</h3>
       <p class="research-authors">Nirvan Tyagi, Arasu Arun, Cody Freitag, Riad Wahby, Joseph Bonneau, David Mazières (2023)</p>
       <div class="research-links">
@@ -1370,7 +1382,7 @@
 </div>
 
 
- <div class="research-card">
+ <div class="research-card hidden">
       <h3 class="research-title">Cornucopia: Distributed randomness beacons at scale</h3>
       <p class="research-authors">Miranda Christ, Kevin Choi, Joseph Bonneau (2023)</p>
       <div class="research-links">
@@ -1379,7 +1391,7 @@
 </div>
 
         <!-- See more link -->
-<!--        <a href="#" class="see-all-link">See more research from NYU Blockchain Lab<i class="fas fa-angle-right"></i></a> -->
+        <a href="#" id="see-more-research" class="see-all-link">See more research from NYU Blockchain Lab <i class="fas fa-angle-right"></i></a>
     
      </div>
     </div>
@@ -1443,6 +1455,19 @@
       // Show all hidden talks
       document.querySelectorAll('.talk-card.hidden').forEach(talk => {
         talk.classList.remove('hidden');
+      });
+      
+      // Hide the "See more" link
+      this.style.display = 'none';
+    });
+    
+    // Show all research when clicking "See more"
+    document.getElementById('see-more-research').addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Show all hidden research
+      document.querySelectorAll('.research-card.hidden').forEach(research => {
+        research.classList.remove('hidden');
       });
       
       // Hide the "See more" link
