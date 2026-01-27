@@ -475,6 +475,73 @@
       align-items: center;
       justify-content: center;
     }
+    
+    /* Opportunities section */
+    .opportunities-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+    }
+    
+    .opportunities-column {
+      background-color: var(--card-bg);
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: var(--shadow);
+    }
+    
+    .opportunities-column h3 {
+      font-size: 1.8rem;
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 3px solid var(--accent);
+    }
+    
+    .opportunity-item {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .opportunity-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    
+    .opportunity-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+    
+    .opportunity-details {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    
+    .opportunity-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: var(--primary);
+      font-weight: 500;
+      transition: var(--transition);
+    }
+    
+    .opportunity-link:hover {
+      color: var(--primary-light);
+    }
+    
+    /* Mobile responsiveness for opportunities */
+    @media (max-width: 768px) {
+      .opportunities-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
   </style>
   <!-- FontAwesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -499,6 +566,9 @@
           </li>
           <li class="nav-item">
             <a href="#research" class="nav-link">Research</a>
+          </li>
+          <li class="nav-item">
+            <a href="#opportunities" class="nav-link">Opportunities</a>
           </li>
           <li class="nav-item">
             <a href="#featured-research" class="nav-link">Affiliated Student Clubs</a>
@@ -1416,6 +1486,45 @@
         <a href="#" id="see-more-research" class="see-all-link">See more research from NYU Blockchain Lab <i class="fas fa-angle-right"></i></a>
     
      </div>
+    </div>
+  </section>
+
+  <!-- Opportunities Section -->
+  <section id="opportunities" class="section">
+    <div class="container">
+      <h2 class="section-title">Opportunities</h2>
+      <div class="opportunities-grid">
+        
+        <!-- Conferences Column -->
+        <div class="opportunities-column">
+          <h3>Conferences</h3>
+          
+          
+          <div class="opportunity-item">
+            <div class="opportunity-title">Conference ---- </div>
+            <div class="opportunity-details">
+              Location: ---<br>
+              Date: ----<br>
+            </div>
+            <a href="#" class="opportunity-link">Learn More →</a>
+          </div>
+        </div>
+        
+        <!-- Positions Column -->
+        <div class="opportunities-column">
+          <h3>Positions</h3>
+          
+          <div class="opportunity-item">
+            <div class="opportunity-title">Postdoctoral Researcher </div>
+            <div class="opportunity-details">
+              Description: ---- <br>
+              Area: ---- <br>
+              Application Deadline: ----
+            </div>
+            <a href="#" class="opportunity-link">Learn More →</a>
+          </div>
+          
+      </div>
     </div>
   </section>
 
